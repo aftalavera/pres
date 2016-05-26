@@ -1,0 +1,1224 @@
+/* CCSTheme v 3.x */
+/* General */
+
+/* Colors */
+.PageBgColorFlamenco {
+	background-color: #000000;
+	}
+
+.FormTitleBgColorFlamenco {
+	background-color: #8b2a2c;
+	}
+
+.FormTitleFontColorFlamenco {
+	color: #cacaca;
+	}
+
+.CaptionBgColorFlamenco {
+	background-color: #323232;
+	}
+
+.CaptionFontColorFlamenco {
+	color: #d1d1d1;
+	}
+
+.DataBgColorFlamenco {
+	background-color: #000000;
+	}
+
+.AltDataBgColorFlamenco {
+	background-color: #4a4a4a;
+	}
+
+.DataFontColorFlamenco {
+	color: #d6d6d6;
+	}
+
+.LinkColorFlamenco {
+	color: #daa095;
+	}
+
+.VisitedLinkColorFlamenco {
+	color: #b55255;
+	}
+
+.HoverLinkColorFlamenco {
+	color: #b80000;
+	}
+
+.ColorBgButtonFlamenco {
+	background-color: #8b2a2c;
+}
+
+.ColorFontButtonFlamenco {
+	color: #cacaca;
+}
+
+.ColorBgButtonPassiveFlamenco {
+	background-color: #c27072;
+}
+
+.ColorFontButtonPassiveFlamenco {
+	color: #f4f4f4;
+}
+
+
+
+.HeaderFlamenco {
+	width: 100%;
+	}
+
+.HeaderFlamenco th { 
+	font-family: Verdana; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 3px;
+	background-image: url('Images/HeaderBg.gif'); color: #cacaca;
+	width: 100%;
+	white-space: nowrap;
+	background-position: right top; padding-left: 8px;
+	}
+
+
+html>body .HeaderFlamenco th {
+	font-family: Verdana; font-size: 140%; font-weight: bold; text-align: left;
+}
+
+
+/*ie6*/
+* html body .HeaderFlamenco th {
+	font-family: Verdana; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.HeaderFlamenco a:link { 
+	color: #cacaca;
+	}
+
+.HeaderFlamenco a:visited { 
+	color: #cacaca;
+	}
+
+.HeaderFlamenco a:hover, .CaptionFlamenco a:active { 
+	color: #cacaca; text-decoration: none;
+	}
+
+.HeaderLeftFlamenco { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRightFlamenco { 
+	background-image: url('Images/HeaderRight.gif');
+	background-position: right top;
+	}
+
+.HeaderLeftFlamenco img{
+	width: 1px;
+	}
+
+.HeaderRightFlamenco img{
+	width: 14px;
+	}
+
+
+/* Grid Options */
+.GridFlamenco { 
+	border-left: 1px solid #8b2a2c; border-bottom: 1px solid #8b2a2c;
+	width: 100%;
+	}
+
+.CaptionFlamenco th { 
+	font-family: Verdana; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-image: url('Images/CaptionBg.gif'); color: #d1d1d1;
+	white-space: nowrap;
+	}
+
+.CaptionFlamenco td { 
+	font-family: Verdana; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-image: url('Images/CaptionBg.gif'); color: #d1d1d1;
+	white-space: nowrap;
+	}
+
+
+html>body .CaptionFlamenco th, html>body .CaptionFlamenco td {
+	font-family: Verdana; font-size: 100%; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .CaptionFlamenco th, * html body .CaptionFlamenco td {
+	font-family: Verdana; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.CaptionFlamenco a:link { 
+	color: #d1d1d1;
+	}
+
+.CaptionFlamenco a:visited { 
+	color: #d1d1d1;
+	}
+
+.CaptionFlamenco a:hover, .CaptionFlamenco a:active { 
+	color: #b80000;
+	}
+
+.CaptionFlamenco img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.CaptionFlamenco input {
+	vertical-align: middle;
+	}
+
+.RowFlamenco th { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-color: #000000; color: #d6d6d6;
+	white-space: nowrap;
+	color: #d6d6d6;
+	}
+
+.RowFlamenco td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: left;
+	vertical-align: top;
+	background-color: #000000; 
+	color: #d6d6d6;
+	}
+	
+
+html>body .RowFlamenco th, html>body .RowFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .RowFlamenco th, * html body .RowFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+caption.RowFlamenco { 
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border: 1px solid #8b2a2c; border-bottom: 0px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #000000; 
+	color: #d6d6d6;
+	}
+
+
+html>body caption.RowFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body caption.RowFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.RowFlamenco a:link { 
+	color: #daa095;
+	}
+
+.RowFlamenco a:visited { 
+	color: #b55255;
+	}
+
+.RowFlamenco a:hover, .RowFlamenco a:active { 
+	color: #b80000;
+	}
+
+.SeparatorFlamenco{
+	color: #8b2a2c;
+	}
+
+.SeparatorFlamenco td{
+	height: 1px;
+	}
+
+
+.AltRowFlamenco th { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-color: #000000; color: #d6d6d6;
+	white-space: nowrap;
+	color: #d6d6d6;
+	}
+
+.AltRowFlamenco td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: left;
+	vertical-align: top;
+	background-color: #4a4a4a; 
+	color: #d6d6d6;
+	}
+
+
+html>body .AltRowFlamenco th, html>body .AltRowFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .AltRowFlamenco th, * html body .AltRowFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.AltRowFlamenco a:link { 
+	color: #daa095;
+	}
+
+.AltRowFlamenco a:visited { 
+	color: #b55255;
+	}
+
+.AltRowFlamenco a:hover, .AltRowFlamenco a:active { 
+	color: #b80000;
+	}
+
+.NoRecordsFlamenco td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: left;
+	background-color: #000000; 
+	color: #d6d6d6;
+	vertical-align: top;
+	}
+
+.FooterFlamenco td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-color: #323232; color: #d1d1d1;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #d6d6d6;
+	}
+
+
+html>body .NoRecordsFlamenco td, html>body .FooterFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .NoRecordsFlamenco td, * html body .FooterFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.FooterFlamenco a:link { 
+	color: #daa095;
+	}
+
+.FooterFlamenco a:visited { 
+	color: #b55255;
+	}
+
+.FooterFlamenco a:hover, .FooterFlamenco a:active { 
+	color: #b80000;
+	}
+
+.FooterFlamenco img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.FooterFlamenco input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.RecordFlamenco { 
+	border-left: 1px solid #8b2a2c; border-bottom: 1px solid #8b2a2c;
+	width: 100%;
+	}
+
+.ErrorFlamenco td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: left;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #000000; 
+	}
+
+
+* html>body .ErrorFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .ErrorFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.ControlsFlamenco th { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-color: #000000; color: #d6d6d6;
+	white-space: nowrap;
+	color: #d6d6d6;
+	}
+
+.ControlsFlamenco td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: left;
+	vertical-align: top;
+	background-color: #000000; 
+	color: #d6d6d6;
+	}
+	
+.BottomFlamenco td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-color: #323232; color: #d1d1d1;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #d6d6d6;
+	}
+
+
+html>body .ControlsFlamenco th, html>body .ControlsFlamenco td, html>body .BottomFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .ControlsFlamenco th, * html body .ControlsFlamenco td, * html body .BottomFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.BottomFlamenco a:link { 
+	color: #daa095;
+	}
+
+.BottomFlamenco a:visited { 
+	color: #b55255;
+	}
+
+.BottomFlamenco a:hover, .CaptionFlamenco a:active { 
+	color: #b80000;
+	}
+
+.BottomFlamenco img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.BottomFlamenco input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaptionFlamenco th{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #4a4a4a; 
+	color: #d6d6d6;
+	}
+
+.GroupCaptionFlamenco td{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #000000; 
+	color: #d6d6d6;
+	}
+
+
+html>body .GroupCaptionFlamenco th, html>body .GroupCaptionFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .GroupCaptionFlamenco th, * html body .GroupCaptionFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.GroupCaptionFlamenco a:link {
+	color: #d1d1d1;
+	}
+
+.GroupCaptionFlamenco a:visited{
+	color: #d1d1d1;
+	}
+
+.GroupCaptionFlamenco a:hover, .GroupCaptionFlamenco a:active{
+	color: #b80000;
+	}
+
+.GroupFooterFlamenco td{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #323232; 
+	color: #d6d6d6;
+	}
+
+
+html>body .GroupFooterFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .GroupFooterFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.GroupFooterFlamenco a:link {
+	color: #daa095;
+	}
+
+.GroupFooterFlamenco a:visited{
+	color: #b55255;
+	}
+
+.GroupFooterFlamenco a:hover, .GroupFooterFlamenco a:active{
+	color: #b80000;
+	}
+
+.GroupFooterFlamenco img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooterFlamenco input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.SubTotalFlamenco td{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #4a4a4a; 
+	color: #d6d6d6;
+	border-bottom: 2px solid #8b2a2c;
+	}
+
+
+html>body .SubTotalFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .SubTotalFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.SubTotalFlamenco a:link {
+	color: #daa095;
+	}
+
+.SubTotalFlamenco a:visited{
+	color: #b55255;
+	}
+
+.SubTotalFlamenco a:hover, .SubTotalFlamenco a:active{
+	color: #b80000;
+	}
+
+.TotalFlamenco td{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #4a4a4a; 
+	color: #d6d6d6;
+	}
+
+
+html>body .TotalFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .TotalFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.TotalFlamenco a:link {
+	color: #daa095;
+	}
+
+.TotalFlamenco a:visited{
+	color: #b55255;
+	}
+
+.TotalFlamenco a:hover, .TotalFlamenco a:active{
+	color: #b80000;
+	}
+
+/* Form Options */
+.ButtonFlamenco { 
+	background-color: #8b2a2c; color: #cacaca; border-left: solid 1px #EDEDED; border-top: solid 1px #EDEDED; border-right: solid 1px #848284; border-bottom: solid 1px #848284; padding: 2px; font-weight: bold; font-size: 85%; font-family: Tahoma;
+	}
+
+/* Calendar */
+
+.CalendarFlamenco { 
+	border: 1px solid #8b2a2c;
+	width: 100%;
+	}
+
+.CalendarWeekdayNameFlamenco{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #4a4a4a; 
+	color: #d6d6d6;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekdayNameFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekdayNameFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekdayNameFlamenco a:link {
+	color: #daa095;
+	}
+
+.CalendarWeekdayNameFlamenco a:visited{
+	color: #b55255;
+	}
+
+.CalendarWeekdayNameFlamenco a:hover, .CalendarWeekdayNameFlamenco a:active{
+	color: #b80000;
+	}
+
+.CalendarWeekendNameFlamenco{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #4a4a4a;	
+	color: #d6d6d6;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekendNameFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendNameFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendNameFlamenco a:link {
+	color: #d1d1d1;
+	}
+
+.CalendarWeekendNameFlamenco a:visited{
+	color: #d1d1d1;
+	}
+
+.CalendarWeekendNameFlamenco a:link, .CalendarWeekendNameFlamenco a:visited{
+	color: #b80000;
+	}
+
+/* Calendar Day */
+.CalendarDayFlamenco{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: center;
+	background-color: #000000;	
+	color: #d6d6d6;
+	}
+
+
+html>body .CalendarDayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarDayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarDayFlamenco a:link {
+	color: #daa095;
+	}
+
+.CalendarDayFlamenco a:visited{
+	color: #b55255;
+	}
+
+.CalendarDayFlamenco a:hover, .CalendarDayFlamenco a:active{
+	color: #b80000;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekendFlamenco{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: center;
+	background-color: #4a4a4a;	
+	color: #d6d6d6;
+	}
+
+
+html>body .CalendarWeekendFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendFlamenco a:link {
+	color: #daa095;
+	}
+
+.CalendarWeekendFlamenco a:visited{
+	color: #b55255;
+	}
+
+.CalendarWeekendFlamenco a:hover, .CalendarWeekendFlamenco a:active{
+	color: #b80000;
+	}
+
+/* Calendar Today */
+.CalendarTodayFlamenco {
+	font-family: Verdana; font-size: 80%;
+	padding: 1px;
+	border-top: 3px solid #8b2a2c; border-right: 3px solid #8b2a2c; border-left: 2px solid #8b2a2c; border-bottom: 2px solid #8b2a2c;
+	text-align: center;
+	background-color: #000000;	
+	color: #d6d6d6;
+	}
+
+
+html>body .CalendarTodayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarTodayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarTodayFlamenco a:link {
+	color: #daa095;
+	}
+
+.CalendarTodayFlamenco a:visited{
+	color: #b55255;
+	}
+
+.CalendarTodayFlamenco a:hover, .CalendarTodayFlamenco a:active {
+	color: #b80000;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendTodayFlamenco {
+	font-family: Verdana; font-size: 80%;
+	padding: 1px;
+	border-top: 3px solid #8b2a2c; border-right: 3px solid #8b2a2c; border-left: 2px solid #8b2a2c; border-bottom: 2px solid #8b2a2c;
+	text-align: center;
+	background-color: #4a4a4a;	
+	color: #d6d6d6;
+	}
+
+
+html>body .CalendarWeekendTodayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendTodayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendTodayFlamenco a:link {
+	color: #daa095;
+	}
+
+.CalendarWeekendTodayFlamenco a:visited{
+	color: #b55255;
+	}
+
+.CalendarWeekendTodayFlamenco a:hover, .CalendarWeekendTodayFlamenco a:active{
+	color: #b80000;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDayFlamenco{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: center;
+	background-color: #000000;	
+	color: #8b2a2c;
+	}
+
+
+html>body .CalendarOtherMonthDayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthDayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthDayFlamenco a:link {
+	color: #8b2a2c;
+	}
+
+.CalendarOtherMonthDayFlamenco a:visited{
+	color: #8b2a2c;
+	}
+
+.CalendarOtherMonthDayFlamenco a:hover, .CalendarOtherMonthDayFlamenco a:active{
+	color: #b80000;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthTodayFlamenco {
+	font-family: Verdana; font-size: 80%;
+	padding: 1px;
+	border-top: 3px solid #8b2a2c; border-right: 3px solid #8b2a2c; border-left: 2px solid #8b2a2c; border-bottom: 2px solid #8b2a2c;
+	text-align: center;
+	background-color: #000000;	
+	color: #8b2a2c;
+	}
+
+
+html>body .CalendarOtherMonthTodayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthTodayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthTodayFlamenco a:link {
+	color: #8b2a2c;
+	}
+
+.CalendarOtherMonthTodayFlamenco a:visited{
+	color: #8b2a2c;
+	}
+
+.CalendarOtherMonthTodayFlamenco a:hover, .CalendarOtherMonthTodayFlamenco a:active{
+	color: #b80000;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekendFlamenco {
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: center;
+	background-color: #4a4a4a;	
+	color: #8b2a2c;
+	}
+
+
+html>body .CalendarOtherMonthWeekendFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendFlamenco a:link {
+	color: #8b2a2c;
+	}
+
+.CalendarOtherMonthWeekendFlamenco a:visited{
+	color: #8b2a2c;
+	}
+
+.CalendarOtherMonthWeekendFlamenco a:hover, .CalendarOtherMonthWeekendFlamenco a:active{
+	color: #b80000;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendTodayFlamenco {
+	font-family: Verdana; font-size: 80%;
+	padding: 1px;
+	border-top: 3px solid #8b2a2c; border-right: 3px solid #8b2a2c; border-left: 2px solid #8b2a2c; border-bottom: 2px solid #8b2a2c;
+	text-align: center;
+	color: #8b2a2c;
+	background-color: #4a4a4a;	
+	}
+	
+
+html>body .CalendarOtherMonthWeekendTodayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendTodayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendTodayFlamenco a:link {
+	color: #8b2a2c;
+	}
+
+.CalendarOtherMonthWeekendTodayFlamenco a:visited{
+	color: #8b2a2c;
+	}
+
+.CalendarOtherMonthWeekendTodayFlamenco a:hover, .CalendarOtherMonthWeekendTodayFlamenco a:active{
+	color: #b80000;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDayFlamenco{
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-color: #323232;
+	color: #d1d1d1;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+html>body .CalendarSelectedDayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarSelectedDayFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarSelectedDayFlamenco a:link {
+	color: #d1d1d1;
+	}
+
+.CalendarSelectedDayFlamenco a:visited{
+	color: #d1d1d1;
+	}
+
+.CalendarSelectedDayFlamenco a:hover, .CalendarSelectedDayFlamenco a:active{
+	color: #b80000;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigatorFlamenco {
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	background-color: #323232; color: #d1d1d1;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #d6d6d6;
+	}
+
+
+html>body .CalendarNavigatorFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigatorFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarNavigatorFlamenco a:link {
+	color: #daa095;
+	}
+
+.CalendarNavigatorFlamenco a:visited{
+	color: #b55255;
+	}
+
+.CalendarNavigatorFlamenco a:hover, .CalendarNavigatorFlamenco a:active{
+	color: #b80000;
+	}
+
+.CalendarNavigatorFlamenco img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarNavigatorFlamenco td {
+	font-family: Verdana; font-size: 80%;
+	}
+
+.CalendarNavigatorFlamenco th {
+	font-family: Verdana; font-size: 80%;
+	}
+
+
+html>body .CalendarNavigatorFlamenco th, html>body .CalendarNavigatorFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigatorFlamenco th, * html body .CalendarNavigatorFlamenco td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+/* Calendar Extra */
+.CalendarEventFlamenco{
+	font-family: Verdana; font-size: 80%;
+	text-align: left;
+	}
+
+
+html>body .CalendarEventFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarEventFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarEventFlamenco a:link {
+	color: #daa095;
+	}
+
+.CalendarEventFlamenco a:visited{
+	color: #b55255;
+	}
+
+.CalendarEventFlamenco a:hover, .CalendarEventFlamenco a:active{
+	color: #b80000;
+	}
+
+/* Changes for Section508 */
+table tr td strong {
+	padding: 0px;
+	margin: 0px;
+}
+
+.thFlamenco { 
+	font-family: Verdana; font-size: 80%;
+	font-weight: bold;
+}
+
+
+html>body .thFlamenco {
+	font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .thFlamenco {
+	font-size: 100%;
+}
+/*end*/
+
+.HeaderFlamenco .thFlamenco { 
+	font-family: Verdana; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 3px;
+	background-image: url('Images/HeaderBg.gif'); color: #cacaca;
+	width: 100%;
+	white-space: nowrap;
+}
+
+
+html>body .HeaderFlamenco .thFlamenco {
+	font-family: Verdana; font-size: 140%; font-weight: bold; text-align: left;
+}
+
+
+/*ie6*/
+* html body .HeaderFlamenco .thFlamenco {
+	font-family: Verdana; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.CaptionFlamenco .thFlamenco { 
+	font-family: Verdana; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-image: url('Images/CaptionBg.gif'); color: #d1d1d1;
+	white-space: nowrap;
+}
+
+
+html>body .CaptionFlamenco .thFlamenco {
+	font-family: Verdana; font-size: 100%; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .CaptionFlamenco .thFlamenco {
+	font-family: Verdana; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.RowFlamenco .thFlamenco { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-color: #000000; color: #d6d6d6;
+	white-space: nowrap;
+	color: #d6d6d6;
+}
+
+.AltRowFlamenco .thFlamenco { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-color: #000000; color: #d6d6d6;
+	white-space: nowrap;
+	color: #d6d6d6;
+}
+
+.ControlsFlamenco .thFlamenco { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	background-color: #000000; color: #d6d6d6;
+	white-space: nowrap;
+	color: #d6d6d6;
+}
+
+.GroupCaptionFlamenco .thFlamenco {
+	font-family: Verdana; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #8b2a2c; border-right: 1px solid #8b2a2c;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #4a4a4a; 
+	color: #d6d6d6;
+}
+
+
+html>body .GroupCaptionFlamenco .thFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+html>body .RowFlamenco .thFlamenco, html>body .AltRowFlamenco .thFlamenco, html>body .ControlsFlamenco .thFlamenco {
+	font-family: Verdana; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .GroupCaptionFlamenco .thFlamenco {
+	font-family: Verdana; font-size: 100%;
+}
+
+* html body .RowFlamenco .thFlamenco, * html body .AltRowFlamenco .thFlamenco, * html body .ControlsFlamenco .thFlamenco {
+	font-family: Verdana; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+/*end*/
+
+/* Class for Application Builder Menu */
+.simpleMenuFlamenco td {
+	font-family: Verdana; font-size: 80%;
+}
+
+
+html>body .simpleMenuFlamenco td {
+	font-family: Verdana; font-size: 100%;
+} 
+
+
+/*ie6*/
+* html body .simpleMenuFlamenco td {
+	font-family: Verdana; font-size: 100%;
+} 
+/*end*/

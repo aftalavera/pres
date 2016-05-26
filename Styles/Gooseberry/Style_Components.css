@@ -1,0 +1,1096 @@
+/* CCSTheme v 3.x */
+/* General */
+
+/* Colors */
+.PageBgColorGooseberry {
+	background-color: #dce1cd;
+	}
+
+.FormTitleBgColorGooseberry {
+	background-color: #b543a7;
+	}
+
+.FormTitleFontColorGooseberry {
+	color: #fcfcfc;
+	}
+
+.CaptionBgColorGooseberry {
+	background-color: #d3dbb6;
+	}
+
+.CaptionFontColorGooseberry {
+	color: #000000;
+	}
+
+.DataBgColorGooseberry {
+	background-color: #f4f4f4;
+	}
+
+.AltDataBgColorGooseberry {
+	background-color: #f1f4e5;
+	}
+
+.DataFontColorGooseberry {
+	color: #000000;
+	}
+
+.LinkColorGooseberry {
+	color: #1d47c5;
+	}
+
+.VisitedLinkColorGooseberry {
+	color: #801380;
+	}
+
+.HoverLinkColorGooseberry {
+	color: #f72525;
+	}
+
+.ColorBgButtonGooseberry {
+	background-color: #b543a7;
+}
+
+.ColorFontButtonGooseberry {
+	color: #fcfcfc;
+}
+
+.ColorBgButtonPassiveGooseberry {
+	background-color: #f799eb;
+}
+
+.ColorFontButtonPassiveGooseberry {
+	color: #fcfcfc;
+}
+
+
+
+.HeaderGooseberry {
+	width: 100%;
+	}
+
+.HeaderGooseberry th { 
+	font-family: Arial; font-size: 90%; text-align: left;
+	padding: 4px;
+	background-color: #b543a7; color: #fcfcfc;
+	width: 100%;
+	white-space: nowrap;
+	background-position: right top; padding-left: 8px;
+	}
+
+
+
+/*ie6*/
+* html body .HeaderGooseberry th {
+	font-family: Arial; font-size: 130%; text-align: left;
+}
+/*end*/
+
+.HeaderGooseberry a:link { 
+	color: #fcfcfc;
+	}
+
+.HeaderGooseberry a:visited { 
+	color: #fcfcfc;
+	}
+
+.HeaderGooseberry a:hover, .CaptionGooseberry a:active { 
+	color: #fcfcfc; text-decoration: none;
+	}
+
+.HeaderLeftGooseberry { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRightGooseberry { 
+	background-image: url('Images/HeaderRight.gif');
+	background-position: right top;
+	}
+
+.HeaderLeftGooseberry img{
+	width: 1px;
+	}
+
+.HeaderRightGooseberry img{
+	width: 14px;
+	}
+
+
+/* Grid Options */
+.GridGooseberry { 
+	
+	width: 100%;
+	}
+
+.CaptionGooseberry th { 
+	font-family: Arial; font-size: 70%; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #d3dbb6; color: #000000;
+	white-space: nowrap;
+	}
+
+.CaptionGooseberry td { 
+	font-family: Arial; font-size: 70%; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #d3dbb6; color: #000000;
+	white-space: nowrap;
+	}
+
+
+
+/*ie6*/
+* html body .CaptionGooseberry th, * html body .CaptionGooseberry td {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.CaptionGooseberry a:link { 
+	color: #000000;
+	}
+
+.CaptionGooseberry a:visited { 
+	color: #000000;
+	}
+
+.CaptionGooseberry a:hover, .CaptionGooseberry a:active { 
+	color: #f72525;
+	}
+
+.CaptionGooseberry img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.CaptionGooseberry input {
+	vertical-align: middle;
+	}
+
+.RowGooseberry th { 
+	font-family: Arial; font-size: 70%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.RowGooseberry td { 
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+	
+
+
+/*ie6*/
+* html body .RowGooseberry th, * html body .RowGooseberry td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+caption.RowGooseberry { 
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body caption.RowGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.RowGooseberry a:link { 
+	color: #1d47c5;
+	}
+
+.RowGooseberry a:visited { 
+	color: #801380;
+	}
+
+.RowGooseberry a:hover, .RowGooseberry a:active { 
+	color: #f72525;
+	}
+
+.SeparatorGooseberry{
+	color: #b543a7;
+	}
+
+.SeparatorGooseberry td{
+	height: 1px;
+	}
+
+
+.AltRowGooseberry th { 
+	font-family: Arial; font-size: 70%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.AltRowGooseberry td { 
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f1f4e5; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .AltRowGooseberry th, * html body .AltRowGooseberry td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.AltRowGooseberry a:link { 
+	color: #1d47c5;
+	}
+
+.AltRowGooseberry a:visited { 
+	color: #801380;
+	}
+
+.AltRowGooseberry a:hover, .AltRowGooseberry a:active { 
+	color: #f72525;
+	}
+
+.NoRecordsGooseberry td { 
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	background-color: #f4f4f4; 
+	color: #000000;
+	vertical-align: top;
+	}
+
+.FooterGooseberry td { 
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	
+	background-color: #d3dbb6; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .NoRecordsGooseberry td, * html body .FooterGooseberry td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.FooterGooseberry a:link { 
+	color: #1d47c5;
+	}
+
+.FooterGooseberry a:visited { 
+	color: #801380;
+	}
+
+.FooterGooseberry a:hover, .FooterGooseberry a:active { 
+	color: #f72525;
+	}
+
+.FooterGooseberry img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.FooterGooseberry input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.RecordGooseberry { 
+	
+	width: 100%;
+	}
+
+.ErrorGooseberry td { 
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #f4f4f4; 
+	}
+
+
+
+/*ie6*/
+* html body .ErrorGooseberry td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.ControlsGooseberry th { 
+	font-family: Arial; font-size: 70%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.ControlsGooseberry td { 
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+	
+.BottomGooseberry td { 
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	
+	background-color: #d3dbb6; color: #000000;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .ControlsGooseberry th, * html body .ControlsGooseberry td, * html body .BottomGooseberry td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.BottomGooseberry a:link { 
+	color: #1d47c5;
+	}
+
+.BottomGooseberry a:visited { 
+	color: #801380;
+	}
+
+.BottomGooseberry a:hover, .CaptionGooseberry a:active { 
+	color: #f72525;
+	}
+
+.BottomGooseberry img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.BottomGooseberry input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaptionGooseberry th{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f1f4e5; 
+	color: #000000;
+	}
+
+.GroupCaptionGooseberry td{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .GroupCaptionGooseberry th, * html body .GroupCaptionGooseberry td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.GroupCaptionGooseberry a:link {
+	color: #000000;
+	}
+
+.GroupCaptionGooseberry a:visited{
+	color: #000000;
+	}
+
+.GroupCaptionGooseberry a:hover, .GroupCaptionGooseberry a:active{
+	color: #f72525;
+	}
+
+.GroupFooterGooseberry td{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #d3dbb6; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .GroupFooterGooseberry td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.GroupFooterGooseberry a:link {
+	color: #1d47c5;
+	}
+
+.GroupFooterGooseberry a:visited{
+	color: #801380;
+	}
+
+.GroupFooterGooseberry a:hover, .GroupFooterGooseberry a:active{
+	color: #f72525;
+	}
+
+.GroupFooterGooseberry img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooterGooseberry input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.SubTotalGooseberry td{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f1f4e5; 
+	color: #000000;
+	border-bottom: 2px solid #b543a7;
+	}
+
+
+
+/*ie6*/
+* html body .SubTotalGooseberry td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.SubTotalGooseberry a:link {
+	color: #1d47c5;
+	}
+
+.SubTotalGooseberry a:visited{
+	color: #801380;
+	}
+
+.SubTotalGooseberry a:hover, .SubTotalGooseberry a:active{
+	color: #f72525;
+	}
+
+.TotalGooseberry td{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #f1f4e5; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .TotalGooseberry td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.TotalGooseberry a:link {
+	color: #1d47c5;
+	}
+
+.TotalGooseberry a:visited{
+	color: #801380;
+	}
+
+.TotalGooseberry a:hover, .TotalGooseberry a:active{
+	color: #f72525;
+	}
+
+/* Form Options */
+.ButtonGooseberry { 
+	background-color: #b543a7; color: #fcfcfc; border-left: solid 1px #EDEDED; border-top: solid 1px #EDEDED; border-right: solid 1px #848284; border-bottom: solid 1px #848284; padding: 2px; font-weight: bold; font-size: 85%; font-family: Tahoma;
+	}
+
+/* Calendar */
+
+.CalendarGooseberry { 
+	
+	width: 100%;
+	}
+
+.CalendarWeekdayNameGooseberry{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #f1f4e5; 
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekdayNameGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekdayNameGooseberry a:link {
+	color: #1d47c5;
+	}
+
+.CalendarWeekdayNameGooseberry a:visited{
+	color: #801380;
+	}
+
+.CalendarWeekdayNameGooseberry a:hover, .CalendarWeekdayNameGooseberry a:active{
+	color: #f72525;
+	}
+
+.CalendarWeekendNameGooseberry{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #f1f4e5;	
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendNameGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendNameGooseberry a:link {
+	color: #000000;
+	}
+
+.CalendarWeekendNameGooseberry a:visited{
+	color: #000000;
+	}
+
+.CalendarWeekendNameGooseberry a:link, .CalendarWeekendNameGooseberry a:visited{
+	color: #f72525;
+	}
+
+/* Calendar Day */
+.CalendarDayGooseberry{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarDayGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarDayGooseberry a:link {
+	color: #1d47c5;
+	}
+
+.CalendarDayGooseberry a:visited{
+	color: #801380;
+	}
+
+.CalendarDayGooseberry a:hover, .CalendarDayGooseberry a:active{
+	color: #f72525;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekendGooseberry{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: center;
+	background-color: #f1f4e5;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendGooseberry a:link {
+	color: #1d47c5;
+	}
+
+.CalendarWeekendGooseberry a:visited{
+	color: #801380;
+	}
+
+.CalendarWeekendGooseberry a:hover, .CalendarWeekendGooseberry a:active{
+	color: #f72525;
+	}
+
+/* Calendar Today */
+.CalendarTodayGooseberry {
+	font-family: Arial; font-size: 70%;
+	padding: 2px;
+	border: 2px solid #b543a7;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarTodayGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarTodayGooseberry a:link {
+	color: #1d47c5;
+	}
+
+.CalendarTodayGooseberry a:visited{
+	color: #801380;
+	}
+
+.CalendarTodayGooseberry a:hover, .CalendarTodayGooseberry a:active {
+	color: #f72525;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendTodayGooseberry {
+	font-family: Arial; font-size: 70%;
+	padding: 2px;
+	border: 2px solid #b543a7;
+	text-align: center;
+	background-color: #f1f4e5;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendTodayGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendTodayGooseberry a:link {
+	color: #1d47c5;
+	}
+
+.CalendarWeekendTodayGooseberry a:visited{
+	color: #801380;
+	}
+
+.CalendarWeekendTodayGooseberry a:hover, .CalendarWeekendTodayGooseberry a:active{
+	color: #f72525;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDayGooseberry{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #b543a7;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthDayGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthDayGooseberry a:link {
+	color: #b543a7;
+	}
+
+.CalendarOtherMonthDayGooseberry a:visited{
+	color: #b543a7;
+	}
+
+.CalendarOtherMonthDayGooseberry a:hover, .CalendarOtherMonthDayGooseberry a:active{
+	color: #f72525;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthTodayGooseberry {
+	font-family: Arial; font-size: 70%;
+	padding: 2px;
+	border: 2px solid #b543a7;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #b543a7;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthTodayGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthTodayGooseberry a:link {
+	color: #b543a7;
+	}
+
+.CalendarOtherMonthTodayGooseberry a:visited{
+	color: #b543a7;
+	}
+
+.CalendarOtherMonthTodayGooseberry a:hover, .CalendarOtherMonthTodayGooseberry a:active{
+	color: #f72525;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekendGooseberry {
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: center;
+	background-color: #f1f4e5;	
+	color: #b543a7;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendGooseberry a:link {
+	color: #b543a7;
+	}
+
+.CalendarOtherMonthWeekendGooseberry a:visited{
+	color: #b543a7;
+	}
+
+.CalendarOtherMonthWeekendGooseberry a:hover, .CalendarOtherMonthWeekendGooseberry a:active{
+	color: #f72525;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendTodayGooseberry {
+	font-family: Arial; font-size: 70%;
+	padding: 2px;
+	border: 2px solid #b543a7;
+	text-align: center;
+	color: #b543a7;
+	background-color: #f1f4e5;	
+	}
+	
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendTodayGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendTodayGooseberry a:link {
+	color: #b543a7;
+	}
+
+.CalendarOtherMonthWeekendTodayGooseberry a:visited{
+	color: #b543a7;
+	}
+
+.CalendarOtherMonthWeekendTodayGooseberry a:hover, .CalendarOtherMonthWeekendTodayGooseberry a:active{
+	color: #f72525;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDayGooseberry{
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #d3dbb6;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+
+/*ie6*/
+* html body .CalendarSelectedDayGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarSelectedDayGooseberry a:link {
+	color: #000000;
+	}
+
+.CalendarSelectedDayGooseberry a:visited{
+	color: #000000;
+	}
+
+.CalendarSelectedDayGooseberry a:hover, .CalendarSelectedDayGooseberry a:active{
+	color: #f72525;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigatorGooseberry {
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	background-color: #d3dbb6; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarNavigatorGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarNavigatorGooseberry a:link {
+	color: #1d47c5;
+	}
+
+.CalendarNavigatorGooseberry a:visited{
+	color: #801380;
+	}
+
+.CalendarNavigatorGooseberry a:hover, .CalendarNavigatorGooseberry a:active{
+	color: #f72525;
+	}
+
+.CalendarNavigatorGooseberry img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarNavigatorGooseberry td {
+	font-family: Arial; font-size: 70%;
+	}
+
+.CalendarNavigatorGooseberry th {
+	font-family: Arial; font-size: 70%;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarNavigatorGooseberry th, * html body .CalendarNavigatorGooseberry td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+/* Calendar Extra */
+.CalendarEventGooseberry{
+	font-family: Arial; font-size: 70%;
+	text-align: left;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarEventGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarEventGooseberry a:link {
+	color: #1d47c5;
+	}
+
+.CalendarEventGooseberry a:visited{
+	color: #801380;
+	}
+
+.CalendarEventGooseberry a:hover, .CalendarEventGooseberry a:active{
+	color: #f72525;
+	}
+
+/* Changes for Section508 */
+table tr td strong {
+	padding: 0px;
+	margin: 0px;
+}
+
+.thGooseberry { 
+	font-family: Arial; font-size: 70%;
+	font-weight: bold;
+}
+
+
+
+/*ie6*/
+* html body .thGooseberry {
+	font-size: 100%;
+}
+/*end*/
+
+.HeaderGooseberry .thGooseberry { 
+	font-family: Arial; font-size: 90%; text-align: left;
+	padding: 4px;
+	background-color: #b543a7; color: #fcfcfc;
+	width: 100%;
+	white-space: nowrap;
+}
+
+
+
+/*ie6*/
+* html body .HeaderGooseberry .thGooseberry {
+	font-family: Arial; font-size: 130%; text-align: left;
+}
+/*end*/
+
+.CaptionGooseberry .thGooseberry { 
+	font-family: Arial; font-size: 70%; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #d3dbb6; color: #000000;
+	white-space: nowrap;
+}
+
+
+
+/*ie6*/
+* html body .CaptionGooseberry .thGooseberry {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.RowGooseberry .thGooseberry { 
+	font-family: Arial; font-size: 70%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.AltRowGooseberry .thGooseberry { 
+	font-family: Arial; font-size: 70%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.ControlsGooseberry .thGooseberry { 
+	font-family: Arial; font-size: 70%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.GroupCaptionGooseberry .thGooseberry {
+	font-family: Arial; font-size: 70%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f1f4e5; 
+	color: #000000;
+}
+
+
+
+/*ie6*/
+* html body .GroupCaptionGooseberry .thGooseberry {
+	font-family: Arial; font-size: 100%;
+}
+
+* html body .RowGooseberry .thGooseberry, * html body .AltRowGooseberry .thGooseberry, * html body .ControlsGooseberry .thGooseberry {
+	font-family: Arial; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+/*end*/
+
+/* Class for Application Builder Menu */
+.simpleMenuGooseberry td {
+	font-family: Arial; font-size: 70%;
+}
+
+
+
+/*ie6*/
+* html body .simpleMenuGooseberry td {
+	font-family: Arial; font-size: 100%;
+} 
+/*end*/

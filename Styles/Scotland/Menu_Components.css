@@ -1,0 +1,746 @@
+/* htb - Horizontal Top to Bottom Menu */
+
+/* begin  hide/show blocks */
+	.Scotland .menu_htb .right2 {
+		display: none;
+	}
+/* end hide/show blocks */
+
+.Scotland .menu_htb a {
+	background-color: #717d29;
+	background-image: none;
+	height: auto;
+	width: auto;
+}
+
+.Scotland .menu_htb a:hover, .Scotland .menu_htb li:hover>a, .Scotland ul.menu_htb .selected a {
+	background-color: #4c570a;
+	background-image: url('Images/MenuActiveBg.gif');background-repeat: repeat-x;background-position: top left;
+}
+
+/* <= ie6 */
+.Scotland .menu_htb a:hover, .Scotland .menu_htb .adxmhoverA, .Scotland ul.menu_htb .selected a {		/* li:hover>a selector */
+	background-color: #4c570a;
+	background-image: url('Images/MenuActiveBg.gif');background-repeat: repeat-x;background-position: top left;
+}
+
+.Scotland .menu_htb .text {
+	position: relative;
+	color: #e8ebd6;
+	margin-left: .5em; margin-right: .5em; 
+	padding-top: .3em; padding-bottom: .3em;
+	width: auto;
+	height: auto;
+	.display: inline; /* The IE Doubled Float-Margin Bug Fix */
+}
+
+html:first-child .Scotland .menu_htb .text { /* Opera */
+	display: block;
+	float: none;
+}
+
+.Scotland .menu_htb a:hover .text, .Scotland .menu_htb li:hover>a .text, .Scotland ul.menu_htb .selected a .text {
+	color: #e8ebd6;
+}
+
+/* <= ie6 */
+.Scotland .menu_htb a:hover .text, .Scotland .menu_htb .adxmhoverA .text, .Scotland ul.menu_htb .selected a .text {
+	color: #e8ebd6;
+}
+
+.Scotland .menu_htb a {
+	border: 0;
+}
+
+.Scotland .menu_htb a:hover, .Scotland .menu_htb li:hover>a, .Scotland ul.menu_htb .selected a {
+	border: 0;
+}
+
+/* <= ie6 */
+.Scotland .menu_htb a:hover, .Scotland .menu_htb .adxmhoverA, .Scotland ul.menu_htb .selected a {
+	border: 0;
+}
+
+.Scotland .menu_htb, .Scotland .menu_htb ul li {
+	background: transparent;
+}
+
+.Scotland .menu_htb li {
+	border: 0;
+}
+
+/* second level */
+
+/* begin  hide/show blocks */
+	.Scotland .menu_htb ul .right2 {
+		display: none;
+	}
+/* end hide/show blocks */
+
+.Scotland .menu_htb ul .submenu .right2 {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 25%;
+	width: 10px;
+	height: 11px;
+	background-color: transparent;
+	background-image: url('Images/SubmenuArrow.gif');background-repeat: no-repeat;background-position: center left;
+}
+
+.Scotland .menu_htb ul>li .submenu .right2 {
+	right: 0;
+	top: 0;
+	width: 10px;
+	height: 100%;
+}
+
+.Scotland .menu_htb li li {	/* create borders around each item */
+	border: 0;
+}
+
+.Scotland .menu_htb ul .text, .Scotland ul.menu_htb .selected ul .text {
+	position: relative;
+	color: #e8ebd6;
+	height: auto;
+	margin-left: .3em; margin-right: .3em;
+	padding-top: .3em; padding-bottom: .3em;
+	.display: inline; /* The IE Doubled Float-Margin Bug Fix */
+}
+
+html:first-child .Scotland .menu_htb ul .text { /* Opera */
+	display: block;
+	float: none;
+}
+
+.Scotland .menu_htb ul a:hover .text, .Scotland .menu_htb ul li:hover>a .text, .Scotland ul.menu_htb .selected ul a:hover .text, .Scotland ul.menu_htb .selected ul li:hover>a .text {
+	color: #e8ebd6;
+}
+
+/* <= ie6 */
+.Scotland .menu_htb ul a:hover .text, .Scotland .menu_htb ul .adxmhoverA .text, .Scotland ul.menu_htb .selected ul a:hover .text, .Scotland ul.menu_htb .selected ul .adxmhoverA .text {
+	color: #e8ebd6;
+}
+
+.Scotland .menu_htb ul a, .Scotland ul.menu_htb .selected ul a {
+	border: 0;
+}
+
+.Scotland .menu_htb ul a:hover, .Scotland .menu_htb ul li:hover>a, .Scotland ul.menu_htb .selected ul a:hover, .Scotland ul.menu_htb .selected ul li:hover>a {
+	border: 0;
+}
+
+/* <= ie6 */
+.Scotland .menu_htb ul a:hover, .Scotland .menu_htb ul .adxmhoverA, .Scotland ul.menu_htb .selected ul a:hover, .Scotland ul.menu_htb .selected ul .adxmhoverA {
+	border: 0;
+}
+
+.Scotland ul.menu_htb ul li a, .Scotland ul.menu_htb .selected ul li a { 
+	width: 100%;
+	height: auto;
+	background-color: #717d29;
+	background-image: none;
+}
+
+.Scotland .menu_htb ul a:hover, .Scotland .menu_htb ul li:hover>a, .Scotland ul.menu_htb .selected ul a:hover, .Scotland ul.menu_htb .selected ul li:hover>a {
+	background-color: #4c570a;
+	background-image: none;
+}
+
+/* <= ie6 */
+.Scotland .menu_htb ul a:hover, .Scotland .menu_htb ul .adxmhoverA, .Scotland ul.menu_htb .selected ul a:hover, .Scotland ul.menu_htb .selected ul .adxmhoverA {
+	background-color: #4c570a;
+	background-image: none;
+}
+
+
+/* position of items */
+.Scotland .menu_htb ul {
+	width: 17.5em;
+}
+
+.Scotland .menu_htb a {
+	width: auto;
+	height: auto;
+	padding: 0;
+	cursor: hand;
+	float: left; /* is needed for ie, because it puts items to the next line */
+}
+
+html:first-child .Scotland .menu_htb a { /* Opera */
+	float: none;
+}
+
+.Scotland ul.menu_htb ul li a { 
+	width: 17.5em;
+	height: auto;
+	padding: 0;
+	overflow: hidden;
+	float: none;
+}
+
+.Scotland .menu_htb li li:hover>ul {	/* inset 2nd+ submenus, to show off overlapping */
+	top: 5px;
+	left: 100%;
+}
+
+.Scotland .menu_htb .adxmhoverUL .adxmhoverUL {	/* inset 2nd+ submenus, to show off overlapping */
+	top: 5px;
+	left: 100%;
+}
+
+
+/* hbt - Horizontal Bottom to Top */
+
+
+/* vlr - Vertical Left to Right */
+
+/* begin  hide/show blocks */
+	.Scotland .menu_vlr .right2 {
+		display: none;
+	}
+/* end hide/show blocks */
+
+.Scotland .menu_vlr a {
+	width: 100%;
+	height: auto;
+	background-color: #717d29;
+	background-image: none;
+}
+
+.Scotland .menu_vlr a:hover, .Scotland .menu_vlr li:hover>a, .Scotland ul.menu_vlr .selected a {
+	background-color: #4c570a;
+	background-image: url('Images/MenuActiveBg.gif');background-repeat: repeat-x;background-position: top left;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr a:hover, .Scotland .menu_vlr .adxmhoverA, .Scotland ul.menu_vlr .selected a {		/* li:hover>a selector */
+	background-color: #4c570a;
+	background-image: url('Images/MenuActiveBg.gif');background-repeat: repeat-x;background-position: top left;
+}
+
+.Scotland .menu_vlr .text {
+	position: relative;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	color: #e8ebd6;
+	padding-top: .3em; padding-bottom: .3em;
+}
+
+.Scotland .menu_vlr a:hover .text, .Scotland .menu_vlr li:hover>a .text, .Scotland ul.menu_vlr .selected a .text {
+	color: #e8ebd6;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr a:hover .text, .Scotland .menu_vlr .adxmhoverA .text, .Scotland ul.menu_vlr .selected a .text {		/* li:hover>a selector */
+	color: #e8ebd6;
+}
+
+.Scotland .menu_vlr a {
+	border: 0;
+}
+
+.Scotland .menu_vlr a:hover, .Scotland .menu_vlr li:hover>a, .Scotland ul.menu_vlr .selected a {
+	border: 0;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr a:hover, .Scotland .menu_vlr .adxmhoverA, .Scotland ul.menu_vlr .selected a {		/* li:hover>a selector */
+	border: 0;
+}
+
+.Scotland .menu_vlr, .Scotland .menu_vlr ul li {
+	background: transparent;
+}
+
+.Scotland .menu_vlr li {	/* create borders around each item */
+	border: 0;
+}
+
+/* second level */
+
+/* begin  hide/show blocks */
+	.Scotland .menu_vlr ul .right2 {
+		display: none;
+	}
+/* end hide/show blocks */
+
+.Scotland .menu_vlr ul li {	/* create borders around each item */
+	border: 0;
+}
+
+.Scotland .menu_vlr ul .text, .Scotland ul.menu_vlr .selected ul .text {
+	position: relative;
+	height: auto;
+	width: auto;
+	color: #e8ebd6;
+	text-align: left;
+	margin-left: .3em; margin-right: .3em;
+	padding-top: .3em; padding-bottom: .3em;
+	display: inline; /* The IE Doubled Float-Margin Bug Fix */
+}
+
+.Scotland .menu_vlr ul a:hover .text, .Scotland .menu_vlr ul li:hover>a .text, .Scotland ul.menu_vlr .selected ul a:hover .text, .Scotland ul.menu_vlr .selected ul li:hover>a .text {
+	color: #e8ebd6;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr ul a:hover .text, .Scotland .menu_vlr ul .adxmhoverA .text, .Scotland ul.menu_vlr .selected ul a:hover .text, .Scotland ul.menu_vlr .selected ul .adxmhoverA .text {		/* li:hover>a selector */
+	color: #e8ebd6;
+}
+
+.Scotland .menu_vlr ul a, .Scotland ul.menu_vlr .selected ul a {
+	border: 0;
+}
+
+.Scotland .menu_vlr ul a:hover, .Scotland .menu_vlr ul li:hover>a, .Scotland ul.menu_vlr .selected ul a:hover, .Scotland ul.menu_vlr .selected ul li:hover>a {
+	border: 0;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr ul a:hover, .Scotland .menu_vlr ul .adxmhoverA, .Scotland ul.menu_vlr .selected ul a:hover, .Scotland ul.menu_vlr .selected ul .adxmhoverA {		/* li:hover>a selector */
+	border: 0;
+}
+
+.Scotland .menu_vlr ul a, .Scotland ul.menu_vlr .selected ul a {
+	width: 100%;
+	height: auto;
+	background-color: #717d29;
+	background-image: none;
+}
+
+.Scotland .menu_vlr ul a:hover, .Scotland .menu_vlr ul li:hover>a, .Scotland ul.menu_vlr .selected ul a:hover, .Scotland ul.menu_vlr .selected ul li:hover>a {
+	background-color: #4c570a;
+	background-image: none;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr ul a:hover, .Scotland .menu_vlr ul .adxmhoverA, .Scotland ul.menu_vlr .selected ul a:hover, .Scotland ul.menu_vlr .selected ul .adxmhoverA {		/* li:hover>a selector */
+	background-color: #4c570a;
+	background-image: none;
+}
+
+/* position of items */
+.Scotland .menu_vlr, .Scotland .menu_vlr ul {
+	width: 17.5em;
+}
+
+.Scotland .menu_vlr li {
+	clear: both;
+}
+
+.Scotland .menu_vlr a {
+	width: 17.5em;
+	height: auto;
+	padding: 0;
+	cursor: hand;
+	overflow: hidden;
+}
+
+.Scotland .menu_vlr ul a {
+	width: 17.5em;
+	height: auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.Scotland .menu_vlr li:hover>ul {	/* inset 2nd+ submenus, to show off overlapping */
+	top: 5px;
+	left: 100%;
+}
+
+.Scotland .menu_vlr .adxmhoverUL {	/* inset 2nd+ submenus, to show off overlapping */
+	top: 5px;
+	left: 100%;
+}
+
+
+/* vrl - Vertical Right to Left */
+
+
+/* vlr_tree - Vertical Left to Right Tree */
+
+/* styles that are used with javascript */
+	.Scotland .menu_vlr_tree .menu_vlr_tree_openedA .text {
+		font-weight: bold;
+	}
+
+	.Scotland .menu_vlr_tree .menu_vlr_tree_openedUL {
+		display: block; 
+		visibility: visible;
+	}
+	
+	.Scotland .menu_vlr_tree .menu_vlr_tree_closedUL {
+		display: none;
+		visibility: hidden;
+	}
+/* begin  hide/show blocks */
+	.Scotland .menu_vlr_tree .right2 {
+		display: none;
+	}
+/* end hide/show blocks */
+
+.Scotland .menu_vlr_tree a {
+	width: 100%;
+	height: auto;
+	background-color: #4c570a;
+	background-image: none;
+}
+
+.Scotland .menu_vlr_tree ul a {
+	background-color: #717d29;
+	background-image: none;
+}
+
+.Scotland .menu_vlr_tree a:hover, .Scotland .menu_vlr_tree li:hover>a {
+	background-color: #4c570a;
+	background-image: url('Images/MenuActiveBg.gif');background-repeat: repeat-x;background-position: top left;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr_tree a:hover, .Scotland .menu_vlr_tree .adxmhoverA {		/* li:hover>a selector */
+	background-color: #4c570a;
+	background-image: url('Images/MenuActiveBg.gif');background-repeat: repeat-x;background-position: top left;
+}
+
+.Scotland .menu_vlr_tree ul a:hover, .Scotland .menu_vlr_tree ul li:hover>a {
+	background-image: none;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr_tree ul a:hover, .Scotland .menu_vlr_tree ul .adxmhoverA {		/* li:hover>a selector */
+	background-image: none;
+}
+
+.Scotland .menu_vlr_tree .menu_vlr_tree_openedA {
+	background-color: #4c570a;
+	background-image: url('Images/MenuActiveBg.gif');background-repeat: repeat-x;background-position: top left;
+}
+
+.Scotland .menu_vlr_tree .text {
+	position: relative;
+	height: auto;
+	text-align: center;
+	color: #e8ebd6;
+	width: 100%;
+	padding-top: .3em; padding-bottom: .3em;
+}
+
+.Scotland .menu_vlr_tree ul .text {
+	width: auto;
+	text-align: left;
+	margin-left: .3em; margin-right: .3em;
+	display: inline; /* The IE Doubled Float-Margin Bug Fix */
+}
+
+.Scotland .menu_vlr_tree a:hover .text, .Scotland .menu_vlr_tree li:hover>a .text {
+	color: #e8ebd6;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr_tree a:hover .text, .Scotland .menu_vlr_tree .adxmhoverA .text {		/* li:hover>a selector */
+	color: #e8ebd6;
+}
+
+.Scotland .menu_vlr_tree .menu_vlr_tree_openedA .text {
+	color: #e8ebd6;
+}
+
+.Scotland .menu_vlr_tree a {
+	border: 0;
+}
+
+.Scotland .menu_vlr_tree ul a {
+	border: 0;
+}
+
+.Scotland .menu_vlr_tree a:hover, .Scotland .menu_vlr_tree li:hover>a {
+	border: 0;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr_tree a:hover, .Scotland .menu_vlr_tree .adxmhoverA {		/* li:hover>a selector */
+	border: 0;
+}
+
+.Scotland .menu_vlr_tree .menu_vlr_tree_openedA {
+	border: 0;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr_tree a:hover, .Scotland .menu_vlr_tree .adxmhoverA {		/* li:hover>a selector */
+	background-color: #4c570a;
+	background-image: url('Images/MenuActiveBg.gif');background-repeat: repeat-x;background-position: top left;
+}
+
+.Scotland .menu_vlr_tree, .Scotland .menu_vlr_tree ul li {
+	background: transparent;
+}
+
+.Scotland .menu_vlr_tree li {	/* create borders around each item */
+	border: 0;
+}
+
+/* second level */
+
+/* begin  hide/show blocks */
+	.Scotland .menu_vlr_tree ul ul .right2 {
+		display: none;
+	}
+/* end hide/show blocks */
+
+.Scotland .menu_vlr_tree ul ul li {	/* create borders around each item */
+	border: 0;
+}
+
+.Scotland .menu_vlr_tree ul ul .text {
+	position: relative;
+	height: auto;
+	width: auto;
+	text-align: left;
+	color: #e8ebd6;
+	margin-left: .3em; margin-right: .3em;
+	padding-top: .3em; padding-bottom: .3em;
+	display: inline; /* The IE Doubled Float-Margin Bug Fix */
+}
+
+.Scotland .menu_vlr_tree ul ul a:hover .text, .Scotland .menu_vlr_tree ul ul li:hover>a .text {
+	color: #e8ebd6;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr_tree ul ul a:hover .text, .Scotland .menu_vlr_tree ul ul .adxmhoverA .text {		/* li:hover>a selector */
+	color: #e8ebd6;
+}
+
+.Scotland .menu_vlr_tree ul ul a {
+	border: 0;
+}
+
+.Scotland .menu_vlr_tree ul ul a:hover, .Scotland .menu_vlr_tree ul ul li:hover>a {
+	border: 0;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr_tree ul ul a:hover, .Scotland .menu_vlr_tree ul ul .adxmhoverA {		/* li:hover>a selector */
+	border: 0;
+}
+
+.Scotland .menu_vlr_tree ul ul a {
+	width: 100%;
+	height: auto;
+	background-color: #717d29;
+	background-image: none;
+}
+
+.Scotland .menu_vlr_tree ul ul a:hover, .Scotland .menu_vlr_tree ul ul li:hover>a {
+	background-color: #4c570a;
+	background-image: none;
+}
+
+/* <= ie6 */
+.Scotland .menu_vlr_tree ul ul a:hover, .Scotland .menu_vlr_tree ul ul .adxmhoverA {		/* li:hover>a selector */
+	background-color: #4c570a;
+	background-image: none;
+}
+
+/* position of items */
+.Scotland .menu_vlr_tree, .Scotland .menu_vlr_tree ul {
+	width: 17.5em;
+}
+
+.Scotland .menu_vlr_tree ul {
+	float: left;
+}
+
+.Scotland .menu_vlr_tree ul ul {
+	float: none;
+}
+
+.Scotland .menu_vlr_tree a {
+	width: 17.5em;
+	height: auto;
+	padding: 0;
+	float: left;
+	cursor: hand;
+	overflow: hidden;
+}
+
+.Scotland .menu_vlr_tree ul ul a {
+	width: 17.5em;
+	height: auto;
+	padding: 0;
+	float: left;
+	overflow: hidden;
+}
+
+.Scotland .menu_vlr_tree li {
+	float: left;
+}
+
+/* vrl_tree - Vertical Right to Left Tree */
+
+
+/* vrl - Vertical Right to Left */
+
+/* begin  hide/show blocks */
+	.Scotland .menu_vrl .right2 {
+		display: none;
+	}
+/* end hide/show blocks */
+
+.Scotland .menu_vrl a {
+	width: 100%;
+	height: auto;
+	background-color: #717d29;
+	background-image: none;
+}
+
+.Scotland .menu_vrl a:hover, .Scotland .menu_vrl li:hover>a, .Scotland ul.menu_vrl .selected a {
+	background-color: #4c570a;
+	background-image: url('Images/MenuActiveBg.gif');background-repeat: repeat-x;background-position: top left;
+}
+
+/* <= ie6 */
+.Scotland .menu_vrl a:hover, .Scotland .menu_vrl .adxmhoverA, .Scotland ul.menu_vrl .selected a {		/* li:hover>a selector */
+	background-color: #4c570a;
+	background-image: url('Images/MenuActiveBg.gif');background-repeat: repeat-x;background-position: top left;
+}
+
+.Scotland .menu_vrl .text {
+	position: relative;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	color: #e8ebd6;
+	padding-top: .3em; padding-bottom: .3em;
+}
+
+.Scotland .menu_vrl a:hover .text, .Scotland .menu_vrl li:hover>a .text, .Scotland ul.menu_vrl .selected a .text {
+	color: #e8ebd6;
+}
+
+/* <= ie6 */
+.Scotland .menu_vrl a:hover .text, .Scotland .menu_vrl .adxmhoverA .text, .Scotland ul.menu_vrl .selected a .text {		/* li:hover>a selector */
+	color: #e8ebd6;
+}
+
+.Scotland .menu_vrl a {
+	border: 0;
+}
+
+.Scotland .menu_vrl a:hover, .Scotland .menu_vrl li:hover>a, .Scotland ul.menu_vrl .selected a {
+	border: 0;
+}
+
+/* <= ie6 */
+.Scotland .menu_vrl a:hover, .Scotland .menu_vrl .adxmhoverA, .Scotland ul.menu_vrl .selected a {		/* li:hover>a selector */
+	border: 0;
+}
+
+.Scotland .menu_vrl, .Scotland .menu_vrl ul li {
+	background: transparent;
+}
+
+.Scotland .menu_vrl li {	/* create borders around each item */
+	border: 0;
+}
+
+/* second level */
+
+/* begin  hide/show blocks */
+	.Scotland .menu_vrl ul .right2 {
+		display: none;
+	}
+/* end hide/show blocks */
+
+.Scotland .menu_vrl ul li {	/* create borders around each item */
+	border: 0;
+}
+
+.Scotland .menu_vrl ul .text, .Scotland ul.menu_vrl .selected ul .text {
+	position: relative;
+	height: auto;
+	width: auto;
+	color: #e8ebd6;
+	text-align: left;
+	margin-left: .3em; margin-right: .3em;
+	padding-top: .3em; padding-bottom: .3em;
+	display: inline; /* The IE Doubled Float-Margin Bug Fix */
+}
+
+.Scotland .menu_vrl ul a:hover .text, .Scotland .menu_vrl ul li:hover>a .text, .Scotland ul.menu_vrl .selected ul a:hover .text, .Scotland ul.menu_vrl .selected ul li:hover>a .text {
+	color: #e8ebd6;
+}
+
+/* <= ie6 */
+.Scotland .menu_vrl ul a:hover .text, .Scotland .menu_vrl ul .adxmhoverA .text, .Scotland ul.menu_vrl .selected ul a:hover .text, .Scotland ul.menu_vrl .selected ul .adxmhoverA .text {		/* li:hover>a selector */
+	color: #e8ebd6;
+}
+
+.Scotland .menu_vrl ul a, .Scotland ul.menu_vrl .selected ul a {
+	border: 0;
+}
+
+.Scotland .menu_vrl ul a:hover, .Scotland .menu_vrl ul li:hover>a, .Scotland ul.menu_vrl .selected ul a:hover, .Scotland ul.menu_vrl .selected ul li:hover>a {
+	border: 0;
+}
+
+/* <= ie6 */
+.Scotland .menu_vrl ul a:hover, .Scotland .menu_vrl ul .adxmhoverA, .Scotland ul.menu_vrl .selected ul a:hover, .Scotland ul.menu_vrl .selected ul .adxmhoverA {		/* li:hover>a selector */
+	border: 0;
+}
+
+.Scotland .menu_vrl ul a, .Scotland ul.menu_vrl .selected ul a {
+	width: 100%;
+	height: auto;
+	background-color: #717d29;
+	background-image: none;
+}
+
+.Scotland .menu_vrl ul a:hover, .Scotland .menu_vrl ul li:hover>a, .Scotland ul.menu_vrl .selected ul a:hover, .Scotland ul.menu_vrl .selected ul li:hover>a {
+	background-color: #4c570a;
+	background-image: none;
+}
+
+/* <= ie6 */
+.Scotland .menu_vrl ul a:hover, .Scotland .menu_vrl ul .adxmhoverA, .Scotland ul.menu_vrl .selected ul a:hover, .Scotland ul.menu_vrl .selected ul .adxmhoverA {		/* li:hover>a selector */
+	background-color: #4c570a;
+	background-image: none;
+}
+
+/* position of items */
+.Scotland .menu_vrl, .Scotland .menu_vrl ul {
+	width: 17.5em;
+}
+
+.Scotland .menu_vrl li {
+	clear: both;
+}
+
+.Scotland .menu_vrl a {
+	width: 17.5em;
+	height: auto;
+	padding: 0;
+	cursor: hand;
+	overflow: hidden;
+}
+
+.Scotland .menu_vrl ul a {
+	width: 17.5em;
+	height: auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.Scotland .menu_vrl li:hover>ul {	/* inset 2nd+ submenus, to show off overlapping */
+	top: 5px;
+	right: 100%;
+}
+
+.Scotland .menu_vrl .adxmhoverUL {	/* inset 2nd+ submenus, to show off overlapping */
+	top: 5px;
+	right: 100%;
+}
+

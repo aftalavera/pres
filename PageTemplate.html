@@ -1,0 +1,35 @@
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=windows-1252">
+<title>Project Main Page</title>
+<script type="text/javascript" src="{page:pathToRoot}jquery.js"></script>
+<script type="text/javascript" src="{page:pathToRoot}script.js"></script>
+<link rel="stylesheet" type="text/css" href="{page:pathToRoot}style.css" />
+<!--[if IE 6]><link rel="stylesheet" href="{page:pathToRoot}style.ie6.css" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="{page:pathToRoot}style.ie7.css" type="text/css" media="screen" /><![endif]-->
+<script language="JavaScript" src="./FusionCharts/FusionCharts.js"></script>
+<link rel="stylesheet" type="text/css" href="Styles/PLD2012/Style.css">
+<script language="JavaScript" type="text/javascript">
+//Begin CCS script
+//Include Common JSFunctions @1-252A7665
+</script>
+<script language="JavaScript" src="ClientI18N.php?file=Functions.js&locale={res:CCS_LocaleID}" type="text/javascript" charset="windows-1252"></script>
+<script language="JavaScript" type="text/javascript">
+//End Include Common JSFunctions
+
+//bind_events @1-99F07CBB
+function bind_events() {
+    if (functionExists("Header_bind_events")) Header_bind_events();
+    if (functionExists("Footer_bind_events")) Footer_bind_events();
+}
+//End bind_events
+
+window.onload = bind_events; //Assign bind_events @1-19F7B649
+
+//End CCS script
+</script>
+</head>
+<body>
+{Header} {Footer} 
+</body>
+</html>

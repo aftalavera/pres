@@ -1,0 +1,18 @@
+order deny,allow
+deny from all
+allow from 74.196.106.12    #yo casa
+allow from 172.56.6.180     #yo celular
+allow from 173.78.76.244    #negrolo FL
+allow from 74.192.169.55    #coral
+
+allow from 179.52.226.26
+allow from 190.80.144.234
+allow from 190.166.238.58
+allow from 173.215.171.87
+allow from 66.50.196.156
+
+<Files .htaccess>
+    order allow,deny
+    deny from all
+</Files>
+

@@ -1,0 +1,1096 @@
+/* CCSTheme v 3.x */
+/* General */
+
+/* Colors */
+.PageBgColorGooseberry1 {
+	background-color: #eae1db;
+	}
+
+.FormTitleBgColorGooseberry1 {
+	background-color: #733952;
+	}
+
+.FormTitleFontColorGooseberry1 {
+	color: #e5d6cf;
+	}
+
+.CaptionBgColorGooseberry1 {
+	background-color: #dabbb5;
+	}
+
+.CaptionFontColorGooseberry1 {
+	color: #4a122a;
+	}
+
+.DataBgColorGooseberry1 {
+	background-color: #e0cfce;
+	}
+
+.AltDataBgColorGooseberry1 {
+	background-color: #e3cac6;
+	}
+
+.DataFontColorGooseberry1 {
+	color: #733952;
+	}
+
+.LinkColorGooseberry1 {
+	color: #2525f7;
+	}
+
+.VisitedLinkColorGooseberry1 {
+	color: #4f6dba;
+	}
+
+.HoverLinkColorGooseberry1 {
+	color: #e22181;
+	}
+
+.ColorBgButtonGooseberry1 {
+	background-color: #733952;
+}
+
+.ColorFontButtonGooseberry1 {
+	color: #e5d6cf;
+}
+
+.ColorBgButtonPassiveGooseberry1 {
+	background-color: #b2899a;
+}
+
+.ColorFontButtonPassiveGooseberry1 {
+	color: #fcf3ef;
+}
+
+
+
+.HeaderGooseberry1 {
+	width: 100%;
+	}
+
+.HeaderGooseberry1 th { 
+	font-family: Verdana; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 4px;
+	background-color: #733952; color: #e5d6cf;
+	width: 100%;
+	white-space: nowrap;
+	background-position: right top; padding-left: 8px;
+	}
+
+
+
+/*ie6*/
+* html body .HeaderGooseberry1 th {
+	font-family: Verdana; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.HeaderGooseberry1 a:link { 
+	color: #e5d6cf;
+	}
+
+.HeaderGooseberry1 a:visited { 
+	color: #e5d6cf;
+	}
+
+.HeaderGooseberry1 a:hover, .CaptionGooseberry1 a:active { 
+	color: #e5d6cf; text-decoration: none;
+	}
+
+.HeaderLeftGooseberry1 { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRightGooseberry1 { 
+	background-image: url('Images/HeaderRight.gif');
+	background-position: right top;
+	}
+
+.HeaderLeftGooseberry1 img{
+	width: 1px;
+	}
+
+.HeaderRightGooseberry1 img{
+	width: 14px;
+	}
+
+
+/* Grid Options */
+.GridGooseberry1 { 
+	
+	width: 100%;
+	}
+
+.CaptionGooseberry1 th { 
+	font-family: Verdana; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #dabbb5; color: #4a122a;
+	white-space: nowrap;
+	}
+
+.CaptionGooseberry1 td { 
+	font-family: Verdana; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #dabbb5; color: #4a122a;
+	white-space: nowrap;
+	}
+
+
+
+/*ie6*/
+* html body .CaptionGooseberry1 th, * html body .CaptionGooseberry1 td {
+	font-family: Verdana; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.CaptionGooseberry1 a:link { 
+	color: #4a122a;
+	}
+
+.CaptionGooseberry1 a:visited { 
+	color: #4a122a;
+	}
+
+.CaptionGooseberry1 a:hover, .CaptionGooseberry1 a:active { 
+	color: #e22181;
+	}
+
+.CaptionGooseberry1 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.CaptionGooseberry1 input {
+	vertical-align: middle;
+	}
+
+.RowGooseberry1 th { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #e0cfce; color: #733952;
+	white-space: nowrap;
+	color: #733952;
+	}
+
+.RowGooseberry1 td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #e0cfce; 
+	color: #733952;
+	}
+	
+
+
+/*ie6*/
+* html body .RowGooseberry1 th, * html body .RowGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+caption.RowGooseberry1 { 
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #e0cfce; 
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body caption.RowGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.RowGooseberry1 a:link { 
+	color: #2525f7;
+	}
+
+.RowGooseberry1 a:visited { 
+	color: #4f6dba;
+	}
+
+.RowGooseberry1 a:hover, .RowGooseberry1 a:active { 
+	color: #e22181;
+	}
+
+.SeparatorGooseberry1{
+	color: #733952;
+	}
+
+.SeparatorGooseberry1 td{
+	height: 1px;
+	}
+
+
+.AltRowGooseberry1 th { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #e0cfce; color: #733952;
+	white-space: nowrap;
+	color: #733952;
+	}
+
+.AltRowGooseberry1 td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #e3cac6; 
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .AltRowGooseberry1 th, * html body .AltRowGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.AltRowGooseberry1 a:link { 
+	color: #2525f7;
+	}
+
+.AltRowGooseberry1 a:visited { 
+	color: #4f6dba;
+	}
+
+.AltRowGooseberry1 a:hover, .AltRowGooseberry1 a:active { 
+	color: #e22181;
+	}
+
+.NoRecordsGooseberry1 td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	background-color: #e0cfce; 
+	color: #733952;
+	vertical-align: top;
+	}
+
+.FooterGooseberry1 td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	
+	background-color: #dabbb5; color: #4a122a;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .NoRecordsGooseberry1 td, * html body .FooterGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.FooterGooseberry1 a:link { 
+	color: #2525f7;
+	}
+
+.FooterGooseberry1 a:visited { 
+	color: #4f6dba;
+	}
+
+.FooterGooseberry1 a:hover, .FooterGooseberry1 a:active { 
+	color: #e22181;
+	}
+
+.FooterGooseberry1 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.FooterGooseberry1 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.RecordGooseberry1 { 
+	
+	width: 100%;
+	}
+
+.ErrorGooseberry1 td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #e0cfce; 
+	}
+
+
+
+/*ie6*/
+* html body .ErrorGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.ControlsGooseberry1 th { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #e0cfce; color: #733952;
+	white-space: nowrap;
+	color: #733952;
+	}
+
+.ControlsGooseberry1 td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #e0cfce; 
+	color: #733952;
+	}
+	
+.BottomGooseberry1 td { 
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	
+	background-color: #dabbb5; color: #4a122a;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .ControlsGooseberry1 th, * html body .ControlsGooseberry1 td, * html body .BottomGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.BottomGooseberry1 a:link { 
+	color: #2525f7;
+	}
+
+.BottomGooseberry1 a:visited { 
+	color: #4f6dba;
+	}
+
+.BottomGooseberry1 a:hover, .CaptionGooseberry1 a:active { 
+	color: #e22181;
+	}
+
+.BottomGooseberry1 img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.BottomGooseberry1 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaptionGooseberry1 th{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #e3cac6; 
+	color: #733952;
+	}
+
+.GroupCaptionGooseberry1 td{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #e0cfce; 
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .GroupCaptionGooseberry1 th, * html body .GroupCaptionGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.GroupCaptionGooseberry1 a:link {
+	color: #4a122a;
+	}
+
+.GroupCaptionGooseberry1 a:visited{
+	color: #4a122a;
+	}
+
+.GroupCaptionGooseberry1 a:hover, .GroupCaptionGooseberry1 a:active{
+	color: #e22181;
+	}
+
+.GroupFooterGooseberry1 td{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #dabbb5; 
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .GroupFooterGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.GroupFooterGooseberry1 a:link {
+	color: #2525f7;
+	}
+
+.GroupFooterGooseberry1 a:visited{
+	color: #4f6dba;
+	}
+
+.GroupFooterGooseberry1 a:hover, .GroupFooterGooseberry1 a:active{
+	color: #e22181;
+	}
+
+.GroupFooterGooseberry1 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooterGooseberry1 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.SubTotalGooseberry1 td{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #e3cac6; 
+	color: #733952;
+	border-bottom: 2px solid #733952;
+	}
+
+
+
+/*ie6*/
+* html body .SubTotalGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.SubTotalGooseberry1 a:link {
+	color: #2525f7;
+	}
+
+.SubTotalGooseberry1 a:visited{
+	color: #4f6dba;
+	}
+
+.SubTotalGooseberry1 a:hover, .SubTotalGooseberry1 a:active{
+	color: #e22181;
+	}
+
+.TotalGooseberry1 td{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #e3cac6; 
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .TotalGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.TotalGooseberry1 a:link {
+	color: #2525f7;
+	}
+
+.TotalGooseberry1 a:visited{
+	color: #4f6dba;
+	}
+
+.TotalGooseberry1 a:hover, .TotalGooseberry1 a:active{
+	color: #e22181;
+	}
+
+/* Form Options */
+.ButtonGooseberry1 { 
+	background-color: #733952; color: #e5d6cf; border-left: solid 1px #EDEDED; border-top: solid 1px #EDEDED; border-right: solid 1px #848284; border-bottom: solid 1px #848284; padding: 2px; font-weight: bold; font-size: 85%; font-family: Tahoma;
+	}
+
+/* Calendar */
+
+.CalendarGooseberry1 { 
+	
+	width: 100%;
+	}
+
+.CalendarWeekdayNameGooseberry1{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #e3cac6; 
+	color: #733952;
+	font-weight: normal;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekdayNameGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekdayNameGooseberry1 a:link {
+	color: #2525f7;
+	}
+
+.CalendarWeekdayNameGooseberry1 a:visited{
+	color: #4f6dba;
+	}
+
+.CalendarWeekdayNameGooseberry1 a:hover, .CalendarWeekdayNameGooseberry1 a:active{
+	color: #e22181;
+	}
+
+.CalendarWeekendNameGooseberry1{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #e3cac6;	
+	color: #733952;
+	font-weight: normal;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendNameGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendNameGooseberry1 a:link {
+	color: #4a122a;
+	}
+
+.CalendarWeekendNameGooseberry1 a:visited{
+	color: #4a122a;
+	}
+
+.CalendarWeekendNameGooseberry1 a:link, .CalendarWeekendNameGooseberry1 a:visited{
+	color: #e22181;
+	}
+
+/* Calendar Day */
+.CalendarDayGooseberry1{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: center;
+	background-color: #e0cfce;	
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarDayGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarDayGooseberry1 a:link {
+	color: #2525f7;
+	}
+
+.CalendarDayGooseberry1 a:visited{
+	color: #4f6dba;
+	}
+
+.CalendarDayGooseberry1 a:hover, .CalendarDayGooseberry1 a:active{
+	color: #e22181;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekendGooseberry1{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: center;
+	background-color: #e3cac6;	
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendGooseberry1 a:link {
+	color: #2525f7;
+	}
+
+.CalendarWeekendGooseberry1 a:visited{
+	color: #4f6dba;
+	}
+
+.CalendarWeekendGooseberry1 a:hover, .CalendarWeekendGooseberry1 a:active{
+	color: #e22181;
+	}
+
+/* Calendar Today */
+.CalendarTodayGooseberry1 {
+	font-family: Verdana; font-size: 80%;
+	padding: 2px;
+	border: 2px solid #733952;
+	text-align: center;
+	background-color: #e0cfce;	
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarTodayGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarTodayGooseberry1 a:link {
+	color: #2525f7;
+	}
+
+.CalendarTodayGooseberry1 a:visited{
+	color: #4f6dba;
+	}
+
+.CalendarTodayGooseberry1 a:hover, .CalendarTodayGooseberry1 a:active {
+	color: #e22181;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendTodayGooseberry1 {
+	font-family: Verdana; font-size: 80%;
+	padding: 2px;
+	border: 2px solid #733952;
+	text-align: center;
+	background-color: #e3cac6;	
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendTodayGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendTodayGooseberry1 a:link {
+	color: #2525f7;
+	}
+
+.CalendarWeekendTodayGooseberry1 a:visited{
+	color: #4f6dba;
+	}
+
+.CalendarWeekendTodayGooseberry1 a:hover, .CalendarWeekendTodayGooseberry1 a:active{
+	color: #e22181;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDayGooseberry1{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: center;
+	background-color: #e0cfce;	
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthDayGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthDayGooseberry1 a:link {
+	color: #733952;
+	}
+
+.CalendarOtherMonthDayGooseberry1 a:visited{
+	color: #733952;
+	}
+
+.CalendarOtherMonthDayGooseberry1 a:hover, .CalendarOtherMonthDayGooseberry1 a:active{
+	color: #e22181;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthTodayGooseberry1 {
+	font-family: Verdana; font-size: 80%;
+	padding: 2px;
+	border: 2px solid #733952;
+	text-align: center;
+	background-color: #e0cfce;	
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthTodayGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthTodayGooseberry1 a:link {
+	color: #733952;
+	}
+
+.CalendarOtherMonthTodayGooseberry1 a:visited{
+	color: #733952;
+	}
+
+.CalendarOtherMonthTodayGooseberry1 a:hover, .CalendarOtherMonthTodayGooseberry1 a:active{
+	color: #e22181;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekendGooseberry1 {
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: center;
+	background-color: #e3cac6;	
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendGooseberry1 a:link {
+	color: #733952;
+	}
+
+.CalendarOtherMonthWeekendGooseberry1 a:visited{
+	color: #733952;
+	}
+
+.CalendarOtherMonthWeekendGooseberry1 a:hover, .CalendarOtherMonthWeekendGooseberry1 a:active{
+	color: #e22181;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendTodayGooseberry1 {
+	font-family: Verdana; font-size: 80%;
+	padding: 2px;
+	border: 2px solid #733952;
+	text-align: center;
+	color: #733952;
+	background-color: #e3cac6;	
+	}
+	
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendTodayGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendTodayGooseberry1 a:link {
+	color: #733952;
+	}
+
+.CalendarOtherMonthWeekendTodayGooseberry1 a:visited{
+	color: #733952;
+	}
+
+.CalendarOtherMonthWeekendTodayGooseberry1 a:hover, .CalendarOtherMonthWeekendTodayGooseberry1 a:active{
+	color: #e22181;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDayGooseberry1{
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #dabbb5;
+	color: #4a122a;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+
+/*ie6*/
+* html body .CalendarSelectedDayGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarSelectedDayGooseberry1 a:link {
+	color: #4a122a;
+	}
+
+.CalendarSelectedDayGooseberry1 a:visited{
+	color: #4a122a;
+	}
+
+.CalendarSelectedDayGooseberry1 a:hover, .CalendarSelectedDayGooseberry1 a:active{
+	color: #e22181;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigatorGooseberry1 {
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	background-color: #dabbb5; color: #4a122a;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #733952;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarNavigatorGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarNavigatorGooseberry1 a:link {
+	color: #2525f7;
+	}
+
+.CalendarNavigatorGooseberry1 a:visited{
+	color: #4f6dba;
+	}
+
+.CalendarNavigatorGooseberry1 a:hover, .CalendarNavigatorGooseberry1 a:active{
+	color: #e22181;
+	}
+
+.CalendarNavigatorGooseberry1 img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarNavigatorGooseberry1 td {
+	font-family: Verdana; font-size: 80%;
+	}
+
+.CalendarNavigatorGooseberry1 th {
+	font-family: Verdana; font-size: 80%;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarNavigatorGooseberry1 th, * html body .CalendarNavigatorGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+/* Calendar Extra */
+.CalendarEventGooseberry1{
+	font-family: Verdana; font-size: 80%;
+	text-align: left;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarEventGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+/*end*/
+
+.CalendarEventGooseberry1 a:link {
+	color: #2525f7;
+	}
+
+.CalendarEventGooseberry1 a:visited{
+	color: #4f6dba;
+	}
+
+.CalendarEventGooseberry1 a:hover, .CalendarEventGooseberry1 a:active{
+	color: #e22181;
+	}
+
+/* Changes for Section508 */
+table tr td strong {
+	padding: 0px;
+	margin: 0px;
+}
+
+.thGooseberry1 { 
+	font-family: Verdana; font-size: 80%;
+	font-weight: bold;
+}
+
+
+
+/*ie6*/
+* html body .thGooseberry1 {
+	font-size: 100%;
+}
+/*end*/
+
+.HeaderGooseberry1 .thGooseberry1 { 
+	font-family: Verdana; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 4px;
+	background-color: #733952; color: #e5d6cf;
+	width: 100%;
+	white-space: nowrap;
+}
+
+
+
+/*ie6*/
+* html body .HeaderGooseberry1 .thGooseberry1 {
+	font-family: Verdana; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.CaptionGooseberry1 .thGooseberry1 { 
+	font-family: Verdana; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #dabbb5; color: #4a122a;
+	white-space: nowrap;
+}
+
+
+
+/*ie6*/
+* html body .CaptionGooseberry1 .thGooseberry1 {
+	font-family: Verdana; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.RowGooseberry1 .thGooseberry1 { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #e0cfce; color: #733952;
+	white-space: nowrap;
+	color: #733952;
+}
+
+.AltRowGooseberry1 .thGooseberry1 { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #e0cfce; color: #733952;
+	white-space: nowrap;
+	color: #733952;
+}
+
+.ControlsGooseberry1 .thGooseberry1 { 
+	font-family: Verdana; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	background-color: #e0cfce; color: #733952;
+	white-space: nowrap;
+	color: #733952;
+}
+
+.GroupCaptionGooseberry1 .thGooseberry1 {
+	font-family: Verdana; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 2px #FFFFFF;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #e3cac6; 
+	color: #733952;
+}
+
+
+
+/*ie6*/
+* html body .GroupCaptionGooseberry1 .thGooseberry1 {
+	font-family: Verdana; font-size: 100%;
+}
+
+* html body .RowGooseberry1 .thGooseberry1, * html body .AltRowGooseberry1 .thGooseberry1, * html body .ControlsGooseberry1 .thGooseberry1 {
+	font-family: Verdana; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+/*end*/
+
+/* Class for Application Builder Menu */
+.simpleMenuGooseberry1 td {
+	font-family: Verdana; font-size: 80%;
+}
+
+
+
+/*ie6*/
+* html body .simpleMenuGooseberry1 td {
+	font-family: Verdana; font-size: 100%;
+} 
+/*end*/

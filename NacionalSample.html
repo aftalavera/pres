@@ -1,0 +1,432 @@
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=windows-1252">
+<title>Resultado Nacional 600</title>
+<script type="text/javascript" src="{page:pathToRoot}jquery.js"></script>
+<script type="text/javascript" src="{page:pathToRoot}script.js"></script>
+<script language="JavaScript" src="FusionCharts/FusionCharts.js"></script>
+<link rel="stylesheet" type="text/css" href="Styles/PLD2012/Style.css">
+<link rel="stylesheet" type="text/css" href="{page:pathToRoot}style.css">
+<!--[if IE 6]><link rel="stylesheet" href="{page:pathToRoot}style.ie6.css" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 7]><LINK 
+rel=stylesheet type=text/css href="{page:pathToRoot}style.ie7.css" media=screen><![endif]-->
+<script language="JavaScript" type="text/javascript">
+//Begin CCS script
+
+//Include Common JSFunctions @1-252A7665
+</script>
+<script language="JavaScript" src="ClientI18N.php?file=Functions.js&locale={res:CCS_LocaleID}" type="text/javascript" charset="windows-1252"></script>
+<script language="JavaScript" type="text/javascript">
+//End Include Common JSFunctions
+
+//_OnLoad @1-9C4F01C0
+function _OnLoad()
+{
+    var result = true;
+//End _OnLoad
+
+//Custom Code @84-2A29BDB7
+    // -------------------------
+    $("ul.art-hmenu li:nth-child(1) a").addClass("active");
+    // -------------------------
+//End Custom Code
+
+//Close _OnLoad @1-BC33A33A
+    return result;
+}
+//End Close _OnLoad
+
+//bind_events @1-0F0BDDFC
+function bind_events() {
+    if (functionExists("HeaderSample_bind_events")) HeaderSample_bind_events();
+    if (functionExists("Footer_bind_events")) Footer_bind_events();
+    addEventHandler("", "load", _OnLoad);
+}
+//End bind_events
+
+window.onload = bind_events; //Assign bind_events @1-19F7B649
+
+
+//End CCS script
+</script>
+</head>
+<body>
+{Header} 
+<table style="WIDTH: 100%">
+  <tr>
+    <td valign="top" align="center">&nbsp; 
+      <!-- BEGIN Grid Grid5 -->
+      <table border="0" cellspacing="0" cellpadding="0" width="300">
+        <tr>
+          <td valign="top">
+            <table class="Header" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="HeaderLeft">
+                  <p align="center"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></p>
+                </td> 
+                <th>
+                <p align="center">Resultado Parcial 2008</p>
+                </th>
+ 
+                <td class="HeaderRight"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td>
+              </tr>
+            </table>
+ 
+            <table class="Grid" cellspacing="0" cellpadding="0">
+              <!-- BEGIN Row -->
+              <tr class="Row">
+                <td><img id="Grid5foto_{Grid5:rowNumber}" alt=" " src="{foto}">&nbsp;</td> 
+                <td style="TEXT-ALIGN: right">{partido}<br>
+                  {nombre}</td> 
+                <td style="TEXT-ALIGN: right">{votos}<br>
+                  {porciento}</td>
+              </tr>
+ <!-- END Row -->
+              <!-- BEGIN NoRecords -->
+              <tr class="NoRecords">
+                <td colspan="3">No datos reportados</td>
+              </tr>
+              <!-- END NoRecords -->
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">VOTOS</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    {total_votos} 
+                  </div>
+                </td>
+              </tr>
+ 
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">ELECTORES</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    {total_inscritos} 
+                  </div>
+                </td>
+              </tr>
+ 
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">PARTICIPACION</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    {participacion} 
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- END Grid Grid5 --></td> 
+    <td valign="top" align="center">&nbsp; 
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <table class="Header" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="HeaderLeft"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td> 
+                <th>
+                <p align="center">Resultado</p>
+                </th>
+ 
+                <td class="HeaderRight"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td>
+              </tr>
+            </table>
+ 
+            <table class="Grid" cellspacing="0" cellpadding="0">
+              <tr class="NoRecords">
+                <td>
+                  <p>{GrafNacional}</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      &nbsp; 
+      <!-- BEGIN Grid Grid2 -->
+      <table border="0" cellspacing="0" cellpadding="0" width="300">
+        <tr>
+          <td valign="top">
+            <table class="Header" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="HeaderLeft"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td> 
+                <th>
+                <p align="center">Mesas</p>
+                </th>
+ 
+                <td class="HeaderRight"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td>
+              </tr>
+            </table>
+ 
+            <table class="Grid" cellspacing="0" cellpadding="0">
+              <tr class="Footer">
+                <td colspan="2">
+                  <p style="FONT-SIZE: 17px" align="center">{reportadas}&nbsp;de {total}&nbsp;para {porciento}&nbsp;</p>
+                </td> 
+                <td>
+                  <div align="right">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- END Grid Grid2 --></td> 
+    <td valign="top" align="center">&nbsp; 
+      <!-- BEGIN Grid Grid1 -->
+      <table border="0" cellspacing="0" cellpadding="0" width="300">
+        <tr>
+          <td valign="top">
+            <table class="Header" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="HeaderLeft">
+                  <p align="center"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></p>
+                </td> 
+                <th>
+                <p align="center">Resultado 2012</p>
+                </th>
+ 
+                <td class="HeaderRight"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td>
+              </tr>
+            </table>
+ 
+            <table class="Grid" cellspacing="0" cellpadding="0">
+              <!-- BEGIN Row -->
+              <tr class="Row">
+                <td><img id="Grid1foto_{Grid1:rowNumber}" alt=" " src="{foto}">&nbsp;</td> 
+                <td style="TEXT-ALIGN: right">{partido}<br>
+                  {nombre}</td> 
+                <td style="TEXT-ALIGN: right">{votos}<br>
+                  {porciento}</td>
+              </tr>
+ <!-- END Row -->
+              <!-- BEGIN NoRecords -->
+              <tr class="NoRecords">
+                <td colspan="3">No datos reportados</td>
+              </tr>
+              <!-- END NoRecords -->
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">VOTOS</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    {total_votos} 
+                  </div>
+                </td>
+              </tr>
+ 
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">ELECTORES</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    {total_inscritos} 
+                  </div>
+                </td>
+              </tr>
+ 
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">PARTICIPACION</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    {participacion} 
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- END Grid Grid1 --></td>
+  </tr>
+ 
+  <tr>
+    <td valign="top" align="center">&nbsp; 
+      <table border="0" cellspacing="0" cellpadding="0" width="300">
+        <tr>
+          <td valign="top">
+            <table class="Header" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="HeaderLeft">
+                  <p align="center"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></p>
+                </td> 
+                <th>
+                <p align="center">Resultado Final&nbsp;2008</p>
+                </th>
+ 
+                <td class="HeaderRight"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td>
+              </tr>
+            </table>
+ 
+            <table class="Grid" cellspacing="0" cellpadding="0">
+              <tr class="Row">
+                <td><img id="Grid3foto_1" alt=" " src="images/pld.jpg">&nbsp;</td> 
+                <td style="TEXT-ALIGN: right">PLD </td> 
+                <td style="TEXT-ALIGN: right">2,199,734<br>
+                  53.83%</td>
+              </tr>
+ 
+              <tr class="Row">
+                <td><img id="Grid3foto_2" alt=" " src="images/prd.jpg">&nbsp;</td> 
+                <td style="TEXT-ALIGN: right">PRD<br>
+                </td> 
+                <td style="TEXT-ALIGN: right">1,654,066<br>
+                  40.48%</td>
+              </tr>
+ 
+              <tr class="Row">
+                <td>
+                  <p><img id="Grid3foto_1" alt=" " src="images/blank.jpg"></p>
+                </td> 
+                <td style="TEXT-ALIGN: right">OTROS<br>
+                </td> 
+                <td style="TEXT-ALIGN: right">232,741<br>
+                  5.70%</td>
+              </tr>
+ 
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">VOTOS</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    4,086,541 
+                  </div>
+                </td>
+              </tr>
+ 
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">ELECTORES</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    5,764,387 
+                  </div>
+                </td>
+              </tr>
+ 
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">PARTICIPACION</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    70.89% 
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td> 
+    <td valign="top" align="center">&nbsp; 
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top">
+            <table class="Header" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="HeaderLeft"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td> 
+                <th>
+                <p align="center">Proyección</p>
+                </th>
+ 
+                <td class="HeaderRight"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td>
+              </tr>
+            </table>
+ 
+            <table class="Grid" cellspacing="0" cellpadding="0">
+              <tr class="NoRecords">
+                <td>{GrafNacionalProy}</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td> 
+    <td valign="top" align="center">&nbsp; 
+      <!-- BEGIN Grid Grid4 -->
+      <table border="0" cellspacing="0" cellpadding="0" width="300">
+        <tr>
+          <td valign="top">
+            <table class="Header" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="HeaderLeft"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td> 
+                <th>
+                <p align="center">Proyección&nbsp;2012</p>
+                </th>
+ 
+                <td class="HeaderRight"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td>
+              </tr>
+            </table>
+ 
+            <table class="Grid" cellspacing="0" cellpadding="0">
+              <!-- BEGIN Row -->
+              <tr class="Row">
+                <td><img id="Grid4foto_{Grid4:rowNumber}" alt=" " src="{foto}">&nbsp;</td> 
+                <td style="TEXT-ALIGN: right">{partido}<br>
+                  {nombre}</td> 
+                <td style="TEXT-ALIGN: right">{votos}<br>
+                  {porciento}</td>
+              </tr>
+ <!-- END Row -->
+              <!-- BEGIN NoRecords -->
+              <tr class="NoRecords">
+                <td colspan="3">No datos reportados</td>
+              </tr>
+              <!-- END NoRecords -->
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">VOTOS</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    {total_votos} 
+                  </div>
+                </td>
+              </tr>
+ 
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">ELECTORES</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    {total_inscritos} 
+                  </div>
+                </td>
+              </tr>
+ 
+              <tr class="Footer">
+                <td colspan="2">
+                  <p align="right">PARTICIPACION</p>
+                </td> 
+                <td>
+                  <div align="right">
+                    {participacion} 
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- END Grid Grid4 --></td>
+  </tr>
+</table>
+{Footer} 
+</body>
+</html>

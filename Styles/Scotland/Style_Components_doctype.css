@@ -1,0 +1,1224 @@
+/* CCSTheme v 3.x */
+/* General */
+
+/* Colors */
+.PageBgColorScotland {
+	background-color: #cbc9af;
+	}
+
+.FormTitleBgColorScotland {
+	background-color: #717d29;
+	}
+
+.FormTitleFontColorScotland {
+	color: #e8ebd6;
+	}
+
+.CaptionBgColorScotland {
+	background-color: #b6c37a;
+	}
+
+.CaptionFontColorScotland {
+	color: #404818;
+	}
+
+.DataBgColorScotland {
+	background-color: #efefef;
+	}
+
+.AltDataBgColorScotland {
+	background-color: #bcc68b;
+	}
+
+.DataFontColorScotland {
+	color: #49521b;
+	}
+
+.LinkColorScotland {
+	color: #0000e8;
+	}
+
+.VisitedLinkColorScotland {
+	color: #6c6c6c;
+	}
+
+.HoverLinkColorScotland {
+	color: #de3ea6;
+	}
+
+.ColorBgButtonScotland {
+	background-color: #717d29;
+}
+
+.ColorFontButtonScotland {
+	color: #e8ebd6;
+}
+
+.ColorBgButtonPassiveScotland {
+	background-color: #a5af68;
+}
+
+.ColorFontButtonPassiveScotland {
+	color: #f5f7eb;
+}
+
+
+
+.HeaderScotland {
+	width: 100%;
+	}
+
+.HeaderScotland th { 
+	font-family: Arial; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 4px;
+	background-image: url('Images/HeaderBg.gif'); color: #e8ebd6;
+	width: 100%;
+	white-space: nowrap;
+	background-position: right top;  padding-left: 8px;
+	}
+
+
+html>body .HeaderScotland th {
+	font-family: Arial; font-size: 140%; font-weight: bold; text-align: left;
+}
+
+
+/*ie6*/
+* html body .HeaderScotland th {
+	font-family: Arial; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.HeaderScotland a:link { 
+	color: #e8ebd6;
+	}
+
+.HeaderScotland a:visited { 
+	color: #e8ebd6;
+	}
+
+.HeaderScotland a:hover, .CaptionScotland a:active { 
+	color: #e8ebd6; text-decoration: none;
+	}
+
+.HeaderLeftScotland { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRightScotland { 
+	background-image: url('Images/HeaderRight.gif');
+	background-position: right top;
+	}
+
+.HeaderLeftScotland img{
+	width: 1px;
+	}
+
+.HeaderRightScotland img{
+	width: 21px;
+	}
+
+
+/* Grid Options */
+.GridScotland { 
+	border: solid 1px #b6c37a; border-bottom: 0px;
+	width: 100%;
+	}
+
+.CaptionScotland th { 
+	font-family: Arial; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-image: url('Images/CaptionBg.gif'); color: #404818;
+	white-space: nowrap;
+	}
+
+.CaptionScotland td { 
+	font-family: Arial; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-image: url('Images/CaptionBg.gif'); color: #404818;
+	white-space: nowrap;
+	}
+
+
+html>body .CaptionScotland th, html>body .CaptionScotland td {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .CaptionScotland th, * html body .CaptionScotland td {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.CaptionScotland a:link { 
+	color: #404818;
+	}
+
+.CaptionScotland a:visited { 
+	color: #404818;
+	}
+
+.CaptionScotland a:hover, .CaptionScotland a:active { 
+	color: #de3ea6;
+	}
+
+.CaptionScotland img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.CaptionScotland input {
+	vertical-align: middle;
+	}
+
+.RowScotland th { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-color: #efefef; color: #49521b;
+	white-space: nowrap;
+	color: #49521b;
+	}
+
+.RowScotland td { 
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: left;
+	vertical-align: top;
+	background-color: #efefef; 
+	color: #49521b;
+	}
+	
+
+html>body .RowScotland th, html>body .RowScotland td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .RowScotland th, * html body .RowScotland td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+caption.RowScotland { 
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border: solid 1px #b6c37a; border-bottom: 0px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #efefef; 
+	color: #49521b;
+	}
+
+
+html>body caption.RowScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body caption.RowScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.RowScotland a:link { 
+	color: #0000e8;
+	}
+
+.RowScotland a:visited { 
+	color: #6c6c6c;
+	}
+
+.RowScotland a:hover, .RowScotland a:active { 
+	color: #de3ea6;
+	}
+
+.SeparatorScotland{
+	color: #717d29;
+	}
+
+.SeparatorScotland td{
+	height: 1px;
+	}
+
+
+.AltRowScotland th { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-color: #efefef; color: #49521b;
+	white-space: nowrap;
+	color: #49521b;
+	}
+
+.AltRowScotland td { 
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: left;
+	vertical-align: top;
+	background-color: #bcc68b; 
+	color: #49521b;
+	}
+
+
+html>body .AltRowScotland th, html>body .AltRowScotland td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .AltRowScotland th, * html body .AltRowScotland td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.AltRowScotland a:link { 
+	color: #0000e8;
+	}
+
+.AltRowScotland a:visited { 
+	color: #6c6c6c;
+	}
+
+.AltRowScotland a:hover, .AltRowScotland a:active { 
+	color: #de3ea6;
+	}
+
+.NoRecordsScotland td { 
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: left;
+	background-color: #efefef; 
+	color: #49521b;
+	vertical-align: top;
+	}
+
+.FooterScotland td { 
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-color: #efefef; color: #49521b;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #49521b;
+	}
+
+
+html>body .NoRecordsScotland td, html>body .FooterScotland td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .NoRecordsScotland td, * html body .FooterScotland td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.FooterScotland a:link { 
+	color: #0000e8;
+	}
+
+.FooterScotland a:visited { 
+	color: #6c6c6c;
+	}
+
+.FooterScotland a:hover, .FooterScotland a:active { 
+	color: #de3ea6;
+	}
+
+.FooterScotland img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.FooterScotland input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.RecordScotland { 
+	border: solid 1px #b6c37a; border-bottom: 0px;
+	width: 100%;
+	}
+
+.ErrorScotland td { 
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: left;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #efefef; 
+	}
+
+
+* html>body .ErrorScotland td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .ErrorScotland td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.ControlsScotland th { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-color: #efefef; color: #49521b;
+	white-space: nowrap;
+	color: #49521b;
+	}
+
+.ControlsScotland td { 
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: left;
+	vertical-align: top;
+	background-color: #efefef; 
+	color: #49521b;
+	}
+	
+.BottomScotland td { 
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-color: #efefef; color: #49521b;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #49521b;
+	}
+
+
+html>body .ControlsScotland th, html>body .ControlsScotland td, html>body .BottomScotland td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .ControlsScotland th, * html body .ControlsScotland td, * html body .BottomScotland td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.BottomScotland a:link { 
+	color: #0000e8;
+	}
+
+.BottomScotland a:visited { 
+	color: #6c6c6c;
+	}
+
+.BottomScotland a:hover, .CaptionScotland a:active { 
+	color: #de3ea6;
+	}
+
+.BottomScotland img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.BottomScotland input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaptionScotland th{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #bcc68b; 
+	color: #49521b;
+	}
+
+.GroupCaptionScotland td{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #efefef; 
+	color: #49521b;
+	}
+
+
+html>body .GroupCaptionScotland th, html>body .GroupCaptionScotland td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .GroupCaptionScotland th, * html body .GroupCaptionScotland td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.GroupCaptionScotland a:link {
+	color: #404818;
+	}
+
+.GroupCaptionScotland a:visited{
+	color: #404818;
+	}
+
+.GroupCaptionScotland a:hover, .GroupCaptionScotland a:active{
+	color: #de3ea6;
+	}
+
+.GroupFooterScotland td{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #b6c37a; 
+	color: #49521b;
+	}
+
+
+html>body .GroupFooterScotland td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .GroupFooterScotland td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.GroupFooterScotland a:link {
+	color: #0000e8;
+	}
+
+.GroupFooterScotland a:visited{
+	color: #6c6c6c;
+	}
+
+.GroupFooterScotland a:hover, .GroupFooterScotland a:active{
+	color: #de3ea6;
+	}
+
+.GroupFooterScotland img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooterScotland input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.SubTotalScotland td{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #bcc68b; 
+	color: #49521b;
+	border-bottom: 2px solid #717d29;
+	}
+
+
+html>body .SubTotalScotland td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .SubTotalScotland td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.SubTotalScotland a:link {
+	color: #0000e8;
+	}
+
+.SubTotalScotland a:visited{
+	color: #6c6c6c;
+	}
+
+.SubTotalScotland a:hover, .SubTotalScotland a:active{
+	color: #de3ea6;
+	}
+
+.TotalScotland td{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #bcc68b; 
+	color: #49521b;
+	}
+
+
+html>body .TotalScotland td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .TotalScotland td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.TotalScotland a:link {
+	color: #0000e8;
+	}
+
+.TotalScotland a:visited{
+	color: #6c6c6c;
+	}
+
+.TotalScotland a:hover, .TotalScotland a:active{
+	color: #de3ea6;
+	}
+
+/* Form Options */
+.ButtonScotland { 
+	background-color: #bcc68b; color: #404818; border: solid 1px #717d29; padding: 2px; font-weight: bold; font-size: 85%; font-family: Tahoma;
+	}
+
+/* Calendar */
+
+.CalendarScotland { 
+	border: solid 1px #b6c37a;
+	width: 100%;
+	}
+
+.CalendarWeekdayNameScotland{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #bcc68b; 
+	color: #49521b;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekdayNameScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekdayNameScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekdayNameScotland a:link {
+	color: #0000e8;
+	}
+
+.CalendarWeekdayNameScotland a:visited{
+	color: #6c6c6c;
+	}
+
+.CalendarWeekdayNameScotland a:hover, .CalendarWeekdayNameScotland a:active{
+	color: #de3ea6;
+	}
+
+.CalendarWeekendNameScotland{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #bcc68b;	
+	color: #49521b;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekendNameScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendNameScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendNameScotland a:link {
+	color: #404818;
+	}
+
+.CalendarWeekendNameScotland a:visited{
+	color: #404818;
+	}
+
+.CalendarWeekendNameScotland a:link, .CalendarWeekendNameScotland a:visited{
+	color: #de3ea6;
+	}
+
+/* Calendar Day */
+.CalendarDayScotland{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: center;
+	background-color: #efefef;	
+	color: #49521b;
+	}
+
+
+html>body .CalendarDayScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarDayScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarDayScotland a:link {
+	color: #0000e8;
+	}
+
+.CalendarDayScotland a:visited{
+	color: #6c6c6c;
+	}
+
+.CalendarDayScotland a:hover, .CalendarDayScotland a:active{
+	color: #de3ea6;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekendScotland{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: center;
+	background-color: #bcc68b;	
+	color: #49521b;
+	}
+
+
+html>body .CalendarWeekendScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendScotland a:link {
+	color: #0000e8;
+	}
+
+.CalendarWeekendScotland a:visited{
+	color: #6c6c6c;
+	}
+
+.CalendarWeekendScotland a:hover, .CalendarWeekendScotland a:active{
+	color: #de3ea6;
+	}
+
+/* Calendar Today */
+.CalendarTodayScotland {
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border: 2px solid #b6c37a; border-top: 1px solid #b6c37a;
+	text-align: center;
+	background-color: #efefef;	
+	color: #49521b;
+	}
+
+
+html>body .CalendarTodayScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarTodayScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarTodayScotland a:link {
+	color: #0000e8;
+	}
+
+.CalendarTodayScotland a:visited{
+	color: #6c6c6c;
+	}
+
+.CalendarTodayScotland a:hover, .CalendarTodayScotland a:active {
+	color: #de3ea6;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendTodayScotland {
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border: 2px solid #b6c37a; border-top: 1px solid #b6c37a;
+	text-align: center;
+	background-color: #bcc68b;	
+	color: #49521b;
+	}
+
+
+html>body .CalendarWeekendTodayScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendTodayScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendTodayScotland a:link {
+	color: #0000e8;
+	}
+
+.CalendarWeekendTodayScotland a:visited{
+	color: #6c6c6c;
+	}
+
+.CalendarWeekendTodayScotland a:hover, .CalendarWeekendTodayScotland a:active{
+	color: #de3ea6;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDayScotland{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: center;
+	background-color: #efefef;	
+	color: #717d29;
+	}
+
+
+html>body .CalendarOtherMonthDayScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthDayScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthDayScotland a:link {
+	color: #717d29;
+	}
+
+.CalendarOtherMonthDayScotland a:visited{
+	color: #717d29;
+	}
+
+.CalendarOtherMonthDayScotland a:hover, .CalendarOtherMonthDayScotland a:active{
+	color: #de3ea6;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthTodayScotland {
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border: 2px solid #b6c37a; border-top: 1px solid #b6c37a;
+	text-align: center;
+	background-color: #efefef;	
+	color: #717d29;
+	}
+
+
+html>body .CalendarOtherMonthTodayScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthTodayScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthTodayScotland a:link {
+	color: #717d29;
+	}
+
+.CalendarOtherMonthTodayScotland a:visited{
+	color: #717d29;
+	}
+
+.CalendarOtherMonthTodayScotland a:hover, .CalendarOtherMonthTodayScotland a:active{
+	color: #de3ea6;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekendScotland {
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: center;
+	background-color: #bcc68b;	
+	color: #717d29;
+	}
+
+
+html>body .CalendarOtherMonthWeekendScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendScotland a:link {
+	color: #717d29;
+	}
+
+.CalendarOtherMonthWeekendScotland a:visited{
+	color: #717d29;
+	}
+
+.CalendarOtherMonthWeekendScotland a:hover, .CalendarOtherMonthWeekendScotland a:active{
+	color: #de3ea6;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendTodayScotland {
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border: 2px solid #b6c37a; border-top: 1px solid #b6c37a;
+	text-align: center;
+	color: #717d29;
+	background-color: #bcc68b;	
+	}
+	
+
+html>body .CalendarOtherMonthWeekendTodayScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendTodayScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendTodayScotland a:link {
+	color: #717d29;
+	}
+
+.CalendarOtherMonthWeekendTodayScotland a:visited{
+	color: #717d29;
+	}
+
+.CalendarOtherMonthWeekendTodayScotland a:hover, .CalendarOtherMonthWeekendTodayScotland a:active{
+	color: #de3ea6;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDayScotland{
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-color: #b6c37a;
+	color: #404818;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+html>body .CalendarSelectedDayScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarSelectedDayScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarSelectedDayScotland a:link {
+	color: #404818;
+	}
+
+.CalendarSelectedDayScotland a:visited{
+	color: #404818;
+	}
+
+.CalendarSelectedDayScotland a:hover, .CalendarSelectedDayScotland a:active{
+	color: #de3ea6;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigatorScotland {
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	background-color: #efefef; color: #49521b;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #49521b;
+	}
+
+
+html>body .CalendarNavigatorScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigatorScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarNavigatorScotland a:link {
+	color: #0000e8;
+	}
+
+.CalendarNavigatorScotland a:visited{
+	color: #6c6c6c;
+	}
+
+.CalendarNavigatorScotland a:hover, .CalendarNavigatorScotland a:active{
+	color: #de3ea6;
+	}
+
+.CalendarNavigatorScotland img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarNavigatorScotland td {
+	font-family: Arial; font-size: 80%;
+	}
+
+.CalendarNavigatorScotland th {
+	font-family: Arial; font-size: 80%;
+	}
+
+
+html>body .CalendarNavigatorScotland th, html>body .CalendarNavigatorScotland td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigatorScotland th, * html body .CalendarNavigatorScotland td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+/* Calendar Extra */
+.CalendarEventScotland{
+	font-family: Arial; font-size: 80%;
+	text-align: left;
+	}
+
+
+html>body .CalendarEventScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarEventScotland {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarEventScotland a:link {
+	color: #0000e8;
+	}
+
+.CalendarEventScotland a:visited{
+	color: #6c6c6c;
+	}
+
+.CalendarEventScotland a:hover, .CalendarEventScotland a:active{
+	color: #de3ea6;
+	}
+
+/* Changes for Section508 */
+table tr td strong {
+	padding: 0px;
+	margin: 0px;
+}
+
+.thScotland { 
+	font-family: Arial; font-size: 80%;
+	font-weight: bold;
+}
+
+
+html>body .thScotland {
+	font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .thScotland {
+	font-size: 100%;
+}
+/*end*/
+
+.HeaderScotland .thScotland { 
+	font-family: Arial; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 4px;
+	background-image: url('Images/HeaderBg.gif'); color: #e8ebd6;
+	width: 100%;
+	white-space: nowrap;
+}
+
+
+html>body .HeaderScotland .thScotland {
+	font-family: Arial; font-size: 140%; font-weight: bold; text-align: left;
+}
+
+
+/*ie6*/
+* html body .HeaderScotland .thScotland {
+	font-family: Arial; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.CaptionScotland .thScotland { 
+	font-family: Arial; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-image: url('Images/CaptionBg.gif'); color: #404818;
+	white-space: nowrap;
+}
+
+
+html>body .CaptionScotland .thScotland {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .CaptionScotland .thScotland {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.RowScotland .thScotland { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-color: #efefef; color: #49521b;
+	white-space: nowrap;
+	color: #49521b;
+}
+
+.AltRowScotland .thScotland { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-color: #efefef; color: #49521b;
+	white-space: nowrap;
+	color: #49521b;
+}
+
+.ControlsScotland .thScotland { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	background-color: #efefef; color: #49521b;
+	white-space: nowrap;
+	color: #49521b;
+}
+
+.GroupCaptionScotland .thScotland {
+	font-family: Arial; font-size: 80%;
+	padding: 4px;
+	border-bottom: solid 1px #b6c37a;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #bcc68b; 
+	color: #49521b;
+}
+
+
+html>body .GroupCaptionScotland .thScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+html>body .RowScotland .thScotland, html>body .AltRowScotland .thScotland, html>body .ControlsScotland .thScotland {
+	font-family: Arial; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .GroupCaptionScotland .thScotland {
+	font-family: Arial; font-size: 100%;
+}
+
+* html body .RowScotland .thScotland, * html body .AltRowScotland .thScotland, * html body .ControlsScotland .thScotland {
+	font-family: Arial; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+/*end*/
+
+/* Class for Application Builder Menu */
+.simpleMenuScotland td {
+	font-family: Arial; font-size: 80%;
+}
+
+
+html>body .simpleMenuScotland td {
+	font-family: Arial; font-size: 100%;
+} 
+
+
+/*ie6*/
+* html body .simpleMenuScotland td {
+	font-family: Arial; font-size: 100%;
+} 
+/*end*/

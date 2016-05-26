@@ -1,0 +1,1096 @@
+/* CCSTheme v 3.x */
+/* General */
+
+/* Colors */
+.PageBgColorSchool1 {
+	background-color: #cccccc;
+	}
+
+.FormTitleBgColorSchool1 {
+	background-color: #767676;
+	}
+
+.FormTitleFontColorSchool1 {
+	color: #fcfcfc;
+	}
+
+.CaptionBgColorSchool1 {
+	background-color: #d4d4d4;
+	}
+
+.CaptionFontColorSchool1 {
+	color: #000000;
+	}
+
+.DataBgColorSchool1 {
+	background-color: #f4f4f4;
+	}
+
+.AltDataBgColorSchool1 {
+	background-color: #eaeaea;
+	}
+
+.DataFontColorSchool1 {
+	color: #000000;
+	}
+
+.LinkColorSchool1 {
+	color: #3b5dc5;
+	}
+
+.VisitedLinkColorSchool1 {
+	color: #802680;
+	}
+
+.HoverLinkColorSchool1 {
+	color: #f74a4a;
+	}
+
+.ColorBgButtonSchool1 {
+	background-color: #767676;
+}
+
+.ColorFontButtonSchool1 {
+	color: #fcfcfc;
+}
+
+.ColorBgButtonPassiveSchool1 {
+	background-color: #b8b8b8;
+}
+
+.ColorFontButtonPassiveSchool1 {
+	color: #fcfcfc;
+}
+
+
+
+.HeaderSchool1 {
+	width: 100%;
+	}
+
+.HeaderSchool1 th { 
+	font-family: Tahoma; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 3px;
+	background-image: url('Images/HeaderBg.gif'); color: #fcfcfc;
+	width: 100%;
+	white-space: nowrap;
+	padding-left: 8px;
+	}
+
+
+
+/*ie6*/
+* html body .HeaderSchool1 th {
+	font-family: Tahoma; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.HeaderSchool1 a:link { 
+	color: #fcfcfc;
+	}
+
+.HeaderSchool1 a:visited { 
+	color: #fcfcfc;
+	}
+
+.HeaderSchool1 a:hover, .CaptionSchool1 a:active { 
+	color: #fcfcfc; text-decoration: none;
+	}
+
+.HeaderLeftSchool1 { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRightSchool1 { 
+	background-image: url('Images/HeaderRight.gif');
+	background-position: right top;
+	}
+
+.HeaderLeftSchool1 img{
+	width: 1px;
+	}
+
+.HeaderRightSchool1 img{
+	width: 1px;
+	}
+
+
+/* Grid Options */
+.GridSchool1 { 
+	border: 1px solid #767676; border-left: 0px;
+	width: 100%;
+	}
+
+.CaptionSchool1 th { 
+	font-family: Tahoma; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #767676; border-left: 1px solid #767676; border-bottom: 1px solid #767676;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	white-space: nowrap;
+	}
+
+.CaptionSchool1 td { 
+	font-family: Tahoma; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #767676; border-left: 1px solid #767676; border-bottom: 1px solid #767676;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	white-space: nowrap;
+	}
+
+
+
+/*ie6*/
+* html body .CaptionSchool1 th, * html body .CaptionSchool1 td {
+	font-family: Tahoma; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.CaptionSchool1 a:link { 
+	color: #000000;
+	}
+
+.CaptionSchool1 a:visited { 
+	color: #000000;
+	}
+
+.CaptionSchool1 a:hover, .CaptionSchool1 a:active { 
+	color: #f74a4a;
+	}
+
+.CaptionSchool1 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.CaptionSchool1 input {
+	vertical-align: middle;
+	}
+
+.RowSchool1 th { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.RowSchool1 td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+	
+
+
+/*ie6*/
+* html body .RowSchool1 th, * html body .RowSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+caption.RowSchool1 { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border: 1px solid #767676; border-bottom: 0px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body caption.RowSchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.RowSchool1 a:link { 
+	color: #3b5dc5;
+	}
+
+.RowSchool1 a:visited { 
+	color: #802680;
+	}
+
+.RowSchool1 a:hover, .RowSchool1 a:active { 
+	color: #f74a4a;
+	}
+
+.SeparatorSchool1{
+	color: #767676;
+	}
+
+.SeparatorSchool1 td{
+	height: 1px;
+	}
+
+
+.AltRowSchool1 th { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.AltRowSchool1 td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: left;
+	vertical-align: top;
+	background-color: #eaeaea; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .AltRowSchool1 th, * html body .AltRowSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.AltRowSchool1 a:link { 
+	color: #3b5dc5;
+	}
+
+.AltRowSchool1 a:visited { 
+	color: #802680;
+	}
+
+.AltRowSchool1 a:hover, .AltRowSchool1 a:active { 
+	color: #f74a4a;
+	}
+
+.NoRecordsSchool1 td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: left;
+	background-color: #f4f4f4; 
+	color: #000000;
+	vertical-align: top;
+	}
+
+.FooterSchool1 td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #767676; border-left: 1px solid #767676;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .NoRecordsSchool1 td, * html body .FooterSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.FooterSchool1 a:link { 
+	color: #3b5dc5;
+	}
+
+.FooterSchool1 a:visited { 
+	color: #802680;
+	}
+
+.FooterSchool1 a:hover, .FooterSchool1 a:active { 
+	color: #f74a4a;
+	}
+
+.FooterSchool1 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.FooterSchool1 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.RecordSchool1 { 
+	border: 1px solid #767676; border-left: 0px;
+	width: 100%;
+	}
+
+.ErrorSchool1 td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #767676; border-left: 1px solid #767676; border-bottom: 1px solid #767676;
+	text-align: left;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #f4f4f4; 
+	}
+
+
+
+/*ie6*/
+* html body .ErrorSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.ControlsSchool1 th { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.ControlsSchool1 td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+	
+.BottomSchool1 td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #767676; border-left: 1px solid #767676;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .ControlsSchool1 th, * html body .ControlsSchool1 td, * html body .BottomSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.BottomSchool1 a:link { 
+	color: #3b5dc5;
+	}
+
+.BottomSchool1 a:visited { 
+	color: #802680;
+	}
+
+.BottomSchool1 a:hover, .CaptionSchool1 a:active { 
+	color: #f74a4a;
+	}
+
+.BottomSchool1 img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.BottomSchool1 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaptionSchool1 th{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #eaeaea; 
+	color: #000000;
+	}
+
+.GroupCaptionSchool1 td{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .GroupCaptionSchool1 th, * html body .GroupCaptionSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.GroupCaptionSchool1 a:link {
+	color: #000000;
+	}
+
+.GroupCaptionSchool1 a:visited{
+	color: #000000;
+	}
+
+.GroupCaptionSchool1 a:hover, .GroupCaptionSchool1 a:active{
+	color: #f74a4a;
+	}
+
+.GroupFooterSchool1 td{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #767676; border-left: 1px solid #767676;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #d4d4d4; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .GroupFooterSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.GroupFooterSchool1 a:link {
+	color: #3b5dc5;
+	}
+
+.GroupFooterSchool1 a:visited{
+	color: #802680;
+	}
+
+.GroupFooterSchool1 a:hover, .GroupFooterSchool1 a:active{
+	color: #f74a4a;
+	}
+
+.GroupFooterSchool1 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooterSchool1 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.SubTotalSchool1 td{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #eaeaea; 
+	color: #000000;
+	border-bottom: 2px solid #767676;
+	}
+
+
+
+/*ie6*/
+* html body .SubTotalSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.SubTotalSchool1 a:link {
+	color: #3b5dc5;
+	}
+
+.SubTotalSchool1 a:visited{
+	color: #802680;
+	}
+
+.SubTotalSchool1 a:hover, .SubTotalSchool1 a:active{
+	color: #f74a4a;
+	}
+
+.TotalSchool1 td{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #eaeaea; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .TotalSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.TotalSchool1 a:link {
+	color: #3b5dc5;
+	}
+
+.TotalSchool1 a:visited{
+	color: #802680;
+	}
+
+.TotalSchool1 a:hover, .TotalSchool1 a:active{
+	color: #f74a4a;
+	}
+
+/* Form Options */
+.ButtonSchool1 { 
+	background-color: #eaeaea; color: #000000; border: solid 1px #767676; padding: 2px; font-weight: bold; font-size: 85%; font-family: Tahoma;
+	}
+
+/* Calendar */
+
+.CalendarSchool1 { 
+	border: 1px solid #767676;
+	width: 100%;
+	}
+
+.CalendarWeekdayNameSchool1{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #767676; border-left: 1px solid #767676; border-bottom: 1px solid #767676;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #eaeaea; 
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekdayNameSchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekdayNameSchool1 a:link {
+	color: #3b5dc5;
+	}
+
+.CalendarWeekdayNameSchool1 a:visited{
+	color: #802680;
+	}
+
+.CalendarWeekdayNameSchool1 a:hover, .CalendarWeekdayNameSchool1 a:active{
+	color: #f74a4a;
+	}
+
+.CalendarWeekendNameSchool1{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #767676; border-left: 1px solid #767676; border-bottom: 1px solid #767676;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #eaeaea;	
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendNameSchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendNameSchool1 a:link {
+	color: #000000;
+	}
+
+.CalendarWeekendNameSchool1 a:visited{
+	color: #000000;
+	}
+
+.CalendarWeekendNameSchool1 a:link, .CalendarWeekendNameSchool1 a:visited{
+	color: #f74a4a;
+	}
+
+/* Calendar Day */
+.CalendarDaySchool1{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarDaySchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarDaySchool1 a:link {
+	color: #3b5dc5;
+	}
+
+.CalendarDaySchool1 a:visited{
+	color: #802680;
+	}
+
+.CalendarDaySchool1 a:hover, .CalendarDaySchool1 a:active{
+	color: #f74a4a;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekendSchool1{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: center;
+	background-color: #eaeaea;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendSchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendSchool1 a:link {
+	color: #3b5dc5;
+	}
+
+.CalendarWeekendSchool1 a:visited{
+	color: #802680;
+	}
+
+.CalendarWeekendSchool1 a:hover, .CalendarWeekendSchool1 a:active{
+	color: #f74a4a;
+	}
+
+/* Calendar Today */
+.CalendarTodaySchool1 {
+	font-family: Tahoma; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #767676; border-right: 1px solid #767676;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarTodaySchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarTodaySchool1 a:link {
+	color: #3b5dc5;
+	}
+
+.CalendarTodaySchool1 a:visited{
+	color: #802680;
+	}
+
+.CalendarTodaySchool1 a:hover, .CalendarTodaySchool1 a:active {
+	color: #f74a4a;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendTodaySchool1 {
+	font-family: Tahoma; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #767676; border-right: 1px solid #767676;
+	text-align: center;
+	background-color: #eaeaea;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendTodaySchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendTodaySchool1 a:link {
+	color: #3b5dc5;
+	}
+
+.CalendarWeekendTodaySchool1 a:visited{
+	color: #802680;
+	}
+
+.CalendarWeekendTodaySchool1 a:hover, .CalendarWeekendTodaySchool1 a:active{
+	color: #f74a4a;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDaySchool1{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #767676;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthDaySchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthDaySchool1 a:link {
+	color: #767676;
+	}
+
+.CalendarOtherMonthDaySchool1 a:visited{
+	color: #767676;
+	}
+
+.CalendarOtherMonthDaySchool1 a:hover, .CalendarOtherMonthDaySchool1 a:active{
+	color: #f74a4a;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthTodaySchool1 {
+	font-family: Tahoma; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #767676; border-right: 1px solid #767676;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #767676;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthTodaySchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthTodaySchool1 a:link {
+	color: #767676;
+	}
+
+.CalendarOtherMonthTodaySchool1 a:visited{
+	color: #767676;
+	}
+
+.CalendarOtherMonthTodaySchool1 a:hover, .CalendarOtherMonthTodaySchool1 a:active{
+	color: #f74a4a;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekendSchool1 {
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: center;
+	background-color: #eaeaea;	
+	color: #767676;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendSchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendSchool1 a:link {
+	color: #767676;
+	}
+
+.CalendarOtherMonthWeekendSchool1 a:visited{
+	color: #767676;
+	}
+
+.CalendarOtherMonthWeekendSchool1 a:hover, .CalendarOtherMonthWeekendSchool1 a:active{
+	color: #f74a4a;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendTodaySchool1 {
+	font-family: Tahoma; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #767676; border-right: 1px solid #767676;
+	text-align: center;
+	color: #767676;
+	background-color: #eaeaea;	
+	}
+	
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendTodaySchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendTodaySchool1 a:link {
+	color: #767676;
+	}
+
+.CalendarOtherMonthWeekendTodaySchool1 a:visited{
+	color: #767676;
+	}
+
+.CalendarOtherMonthWeekendTodaySchool1 a:hover, .CalendarOtherMonthWeekendTodaySchool1 a:active{
+	color: #f74a4a;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDaySchool1{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	background-color: #d4d4d4;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+
+/*ie6*/
+* html body .CalendarSelectedDaySchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarSelectedDaySchool1 a:link {
+	color: #000000;
+	}
+
+.CalendarSelectedDaySchool1 a:visited{
+	color: #000000;
+	}
+
+.CalendarSelectedDaySchool1 a:hover, .CalendarSelectedDaySchool1 a:active{
+	color: #f74a4a;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigatorSchool1 {
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarNavigatorSchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarNavigatorSchool1 a:link {
+	color: #3b5dc5;
+	}
+
+.CalendarNavigatorSchool1 a:visited{
+	color: #802680;
+	}
+
+.CalendarNavigatorSchool1 a:hover, .CalendarNavigatorSchool1 a:active{
+	color: #f74a4a;
+	}
+
+.CalendarNavigatorSchool1 img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarNavigatorSchool1 td {
+	font-family: Tahoma; font-size: 80%;
+	}
+
+.CalendarNavigatorSchool1 th {
+	font-family: Tahoma; font-size: 80%;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarNavigatorSchool1 th, * html body .CalendarNavigatorSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+/* Calendar Extra */
+.CalendarEventSchool1{
+	font-family: Tahoma; font-size: 80%;
+	text-align: left;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarEventSchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarEventSchool1 a:link {
+	color: #3b5dc5;
+	}
+
+.CalendarEventSchool1 a:visited{
+	color: #802680;
+	}
+
+.CalendarEventSchool1 a:hover, .CalendarEventSchool1 a:active{
+	color: #f74a4a;
+	}
+
+/* Changes for Section508 */
+table tr td strong {
+	padding: 0px;
+	margin: 0px;
+}
+
+.thSchool1 { 
+	font-family: Tahoma; font-size: 80%;
+	font-weight: bold;
+}
+
+
+
+/*ie6*/
+* html body .thSchool1 {
+	font-size: 100%;
+}
+/*end*/
+
+.HeaderSchool1 .thSchool1 { 
+	font-family: Tahoma; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 3px;
+	background-image: url('Images/HeaderBg.gif'); color: #fcfcfc;
+	width: 100%;
+	white-space: nowrap;
+}
+
+
+
+/*ie6*/
+* html body .HeaderSchool1 .thSchool1 {
+	font-family: Tahoma; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.CaptionSchool1 .thSchool1 { 
+	font-family: Tahoma; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #767676; border-left: 1px solid #767676; border-bottom: 1px solid #767676;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	white-space: nowrap;
+}
+
+
+
+/*ie6*/
+* html body .CaptionSchool1 .thSchool1 {
+	font-family: Tahoma; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.RowSchool1 .thSchool1 { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.AltRowSchool1 .thSchool1 { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.ControlsSchool1 .thSchool1 { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.GroupCaptionSchool1 .thSchool1 {
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #767676;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #eaeaea; 
+	color: #000000;
+}
+
+
+
+/*ie6*/
+* html body .GroupCaptionSchool1 .thSchool1 {
+	font-family: Tahoma; font-size: 100%;
+}
+
+* html body .RowSchool1 .thSchool1, * html body .AltRowSchool1 .thSchool1, * html body .ControlsSchool1 .thSchool1 {
+	font-family: Tahoma; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+/*end*/
+
+/* Class for Application Builder Menu */
+.simpleMenuSchool1 td {
+	font-family: Tahoma; font-size: 80%;
+}
+
+
+
+/*ie6*/
+* html body .simpleMenuSchool1 td {
+	font-family: Tahoma; font-size: 100%;
+} 
+/*end*/

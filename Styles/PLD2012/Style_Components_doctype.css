@@ -1,0 +1,1224 @@
+/* CCSTheme v 3.x */
+/* General */
+
+/* Colors */
+.PageBgColorPLD2012 {
+	background-color: #ffffff;
+	}
+
+.FormTitleBgColorPLD2012 {
+	background-color: #984383;
+	}
+
+.FormTitleFontColorPLD2012 {
+	color: #ffffff;
+	}
+
+.CaptionBgColorPLD2012 {
+	background-color: #fee99a;
+	}
+
+.CaptionFontColorPLD2012 {
+	color: #000000;
+	}
+
+.DataBgColorPLD2012 {
+	background-color: #ffffff;
+	}
+
+.AltDataBgColorPLD2012 {
+	background-color: #ffffff;
+	}
+
+.DataFontColorPLD2012 {
+	color: #000000;
+	}
+
+.LinkColorPLD2012 {
+	color: #0033cc;
+	}
+
+.VisitedLinkColorPLD2012 {
+	color: #840084;
+	}
+
+.HoverLinkColorPLD2012 {
+	color: #ff0000;
+	}
+
+.ColorBgButtonPLD2012 {
+	background-color: #984383;
+}
+
+.ColorFontButtonPLD2012 {
+	color: #ffffff;
+}
+
+.ColorBgButtonPassivePLD2012 {
+	background-color: #d48cc2;
+}
+
+.ColorFontButtonPassivePLD2012 {
+	color: #ffffff;
+}
+
+
+
+.HeaderPLD2012 {
+	width: 100%;
+	}
+
+.HeaderPLD2012 th { 
+	font-family: Arial; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 3px;
+	background-color: #984383; color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+	padding-left: 8px;
+	}
+
+
+html>body .HeaderPLD2012 th {
+	font-family: Arial; font-size: 140%; font-weight: bold; text-align: left;
+}
+
+
+/*ie6*/
+* html body .HeaderPLD2012 th {
+	font-family: Arial; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.HeaderPLD2012 a:link { 
+	color: #ffffff;
+	}
+
+.HeaderPLD2012 a:visited { 
+	color: #ffffff;
+	}
+
+.HeaderPLD2012 a:hover, .CaptionPLD2012 a:active { 
+	color: #ffffff; text-decoration: none;
+	}
+
+.HeaderLeftPLD2012 { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRightPLD2012 { 
+	background-image: url('Images/HeaderRight.gif');
+	background-position: right top;
+	}
+
+.HeaderLeftPLD2012 img{
+	width: 1px;
+	}
+
+.HeaderRightPLD2012 img{
+	width: 1px;
+	}
+
+
+/* Grid Options */
+.GridPLD2012 { 
+	
+	width: 100%;
+	}
+
+.CaptionPLD2012 th { 
+	font-family: Arial; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	
+	background-color: #fee99a; color: #000000;
+	white-space: nowrap;
+	}
+
+.CaptionPLD2012 td { 
+	font-family: Arial; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	
+	background-color: #fee99a; color: #000000;
+	white-space: nowrap;
+	}
+
+
+html>body .CaptionPLD2012 th, html>body .CaptionPLD2012 td {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .CaptionPLD2012 th, * html body .CaptionPLD2012 td {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.CaptionPLD2012 a:link { 
+	color: #000000;
+	}
+
+.CaptionPLD2012 a:visited { 
+	color: #000000;
+	}
+
+.CaptionPLD2012 a:hover, .CaptionPLD2012 a:active { 
+	color: #ff0000;
+	}
+
+.CaptionPLD2012 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.CaptionPLD2012 input {
+	vertical-align: middle;
+	}
+
+.RowPLD2012 th { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	
+	background-color: #ffffff; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.RowPLD2012 td { 
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: left;
+	vertical-align: top;
+	background-color: #ffffff; 
+	color: #000000;
+	}
+	
+
+html>body .RowPLD2012 th, html>body .RowPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .RowPLD2012 th, * html body .RowPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+caption.RowPLD2012 { 
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: left;
+	vertical-align: top;
+	background-color: #ffffff; 
+	color: #000000;
+	}
+
+
+html>body caption.RowPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body caption.RowPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.RowPLD2012 a:link { 
+	color: #0033cc;
+	}
+
+.RowPLD2012 a:visited { 
+	color: #840084;
+	}
+
+.RowPLD2012 a:hover, .RowPLD2012 a:active { 
+	color: #ff0000;
+	}
+
+.SeparatorPLD2012{
+	color: #984383;
+	}
+
+.SeparatorPLD2012 td{
+	height: 1px;
+	}
+
+
+.AltRowPLD2012 th { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	
+	background-color: #ffffff; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.AltRowPLD2012 td { 
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: left;
+	vertical-align: top;
+	background-color: #ffffff; 
+	color: #000000;
+	}
+
+
+html>body .AltRowPLD2012 th, html>body .AltRowPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .AltRowPLD2012 th, * html body .AltRowPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.AltRowPLD2012 a:link { 
+	color: #0033cc;
+	}
+
+.AltRowPLD2012 a:visited { 
+	color: #840084;
+	}
+
+.AltRowPLD2012 a:hover, .AltRowPLD2012 a:active { 
+	color: #ff0000;
+	}
+
+.NoRecordsPLD2012 td { 
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: left;
+	background-color: #ffffff; 
+	color: #000000;
+	vertical-align: top;
+	}
+
+.FooterPLD2012 td { 
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	background-color: #fee99a; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+html>body .NoRecordsPLD2012 td, html>body .FooterPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .NoRecordsPLD2012 td, * html body .FooterPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.FooterPLD2012 a:link { 
+	color: #0033cc;
+	}
+
+.FooterPLD2012 a:visited { 
+	color: #840084;
+	}
+
+.FooterPLD2012 a:hover, .FooterPLD2012 a:active { 
+	color: #ff0000;
+	}
+
+.FooterPLD2012 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.FooterPLD2012 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.RecordPLD2012 { 
+	
+	width: 100%;
+	}
+
+.ErrorPLD2012 td { 
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: left;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #ffffff; 
+	}
+
+
+* html>body .ErrorPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .ErrorPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.ControlsPLD2012 th { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	
+	background-color: #ffffff; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.ControlsPLD2012 td { 
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: left;
+	vertical-align: top;
+	background-color: #ffffff; 
+	color: #000000;
+	}
+	
+.BottomPLD2012 td { 
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	background-color: #fee99a; color: #000000;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+html>body .ControlsPLD2012 th, html>body .ControlsPLD2012 td, html>body .BottomPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .ControlsPLD2012 th, * html body .ControlsPLD2012 td, * html body .BottomPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.BottomPLD2012 a:link { 
+	color: #0033cc;
+	}
+
+.BottomPLD2012 a:visited { 
+	color: #840084;
+	}
+
+.BottomPLD2012 a:hover, .CaptionPLD2012 a:active { 
+	color: #ff0000;
+	}
+
+.BottomPLD2012 img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.BottomPLD2012 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaptionPLD2012 th{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #ffffff; 
+	color: #000000;
+	}
+
+.GroupCaptionPLD2012 td{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #ffffff; 
+	color: #000000;
+	}
+
+
+html>body .GroupCaptionPLD2012 th, html>body .GroupCaptionPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .GroupCaptionPLD2012 th, * html body .GroupCaptionPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.GroupCaptionPLD2012 a:link {
+	color: #000000;
+	}
+
+.GroupCaptionPLD2012 a:visited{
+	color: #000000;
+	}
+
+.GroupCaptionPLD2012 a:hover, .GroupCaptionPLD2012 a:active{
+	color: #ff0000;
+	}
+
+.GroupFooterPLD2012 td{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #fee99a; 
+	color: #000000;
+	}
+
+
+html>body .GroupFooterPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .GroupFooterPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.GroupFooterPLD2012 a:link {
+	color: #0033cc;
+	}
+
+.GroupFooterPLD2012 a:visited{
+	color: #840084;
+	}
+
+.GroupFooterPLD2012 a:hover, .GroupFooterPLD2012 a:active{
+	color: #ff0000;
+	}
+
+.GroupFooterPLD2012 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooterPLD2012 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.SubTotalPLD2012 td{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #ffffff; 
+	color: #000000;
+	border-bottom: 2px solid #984383;
+	}
+
+
+html>body .SubTotalPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .SubTotalPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.SubTotalPLD2012 a:link {
+	color: #0033cc;
+	}
+
+.SubTotalPLD2012 a:visited{
+	color: #840084;
+	}
+
+.SubTotalPLD2012 a:hover, .SubTotalPLD2012 a:active{
+	color: #ff0000;
+	}
+
+.TotalPLD2012 td{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #ffffff; 
+	color: #000000;
+	}
+
+
+html>body .TotalPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .TotalPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.TotalPLD2012 a:link {
+	color: #0033cc;
+	}
+
+.TotalPLD2012 a:visited{
+	color: #840084;
+	}
+
+.TotalPLD2012 a:hover, .TotalPLD2012 a:active{
+	color: #ff0000;
+	}
+
+/* Form Options */
+.ButtonPLD2012 { 
+	background-color: #984383; color: #ffffff; border-left: solid 1px #EDEDED; border-top: solid 1px #EDEDED; border-right: solid 1px #848284; border-bottom: solid 1px #848284; padding: 2px; font-weight: bold; font-family: Tahoma; font-size: 11px; font-weight: bold;
+	}
+
+/* Calendar */
+
+.CalendarPLD2012 { 
+	
+	width: 100%;
+	}
+
+.CalendarWeekdayNamePLD2012{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #ffffff; 
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekdayNamePLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekdayNamePLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekdayNamePLD2012 a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekdayNamePLD2012 a:visited{
+	color: #840084;
+	}
+
+.CalendarWeekdayNamePLD2012 a:hover, .CalendarWeekdayNamePLD2012 a:active{
+	color: #ff0000;
+	}
+
+.CalendarWeekendNamePLD2012{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #ffffff;	
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekendNamePLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendNamePLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendNamePLD2012 a:link {
+	color: #000000;
+	}
+
+.CalendarWeekendNamePLD2012 a:visited{
+	color: #000000;
+	}
+
+.CalendarWeekendNamePLD2012 a:link, .CalendarWeekendNamePLD2012 a:visited{
+	color: #ff0000;
+	}
+
+/* Calendar Day */
+.CalendarDayPLD2012{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: center;
+	background-color: #ffffff;	
+	color: #000000;
+	}
+
+
+html>body .CalendarDayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarDayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarDayPLD2012 a:link {
+	color: #0033cc;
+	}
+
+.CalendarDayPLD2012 a:visited{
+	color: #840084;
+	}
+
+.CalendarDayPLD2012 a:hover, .CalendarDayPLD2012 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekendPLD2012{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: center;
+	background-color: #ffffff;	
+	color: #000000;
+	}
+
+
+html>body .CalendarWeekendPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendPLD2012 a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekendPLD2012 a:visited{
+	color: #840084;
+	}
+
+.CalendarWeekendPLD2012 a:hover, .CalendarWeekendPLD2012 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Today */
+.CalendarTodayPLD2012 {
+	font-family: Arial; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #984383;
+	text-align: center;
+	background-color: #ffffff;	
+	color: #000000;
+	}
+
+
+html>body .CalendarTodayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarTodayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarTodayPLD2012 a:link {
+	color: #0033cc;
+	}
+
+.CalendarTodayPLD2012 a:visited{
+	color: #840084;
+	}
+
+.CalendarTodayPLD2012 a:hover, .CalendarTodayPLD2012 a:active {
+	color: #ff0000;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendTodayPLD2012 {
+	font-family: Arial; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #984383;
+	text-align: center;
+	background-color: #ffffff;	
+	color: #000000;
+	}
+
+
+html>body .CalendarWeekendTodayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendTodayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendTodayPLD2012 a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekendTodayPLD2012 a:visited{
+	color: #840084;
+	}
+
+.CalendarWeekendTodayPLD2012 a:hover, .CalendarWeekendTodayPLD2012 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDayPLD2012{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: center;
+	background-color: #ffffff;	
+	color: #984383;
+	}
+
+
+html>body .CalendarOtherMonthDayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthDayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthDayPLD2012 a:link {
+	color: #984383;
+	}
+
+.CalendarOtherMonthDayPLD2012 a:visited{
+	color: #984383;
+	}
+
+.CalendarOtherMonthDayPLD2012 a:hover, .CalendarOtherMonthDayPLD2012 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthTodayPLD2012 {
+	font-family: Arial; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #984383;
+	text-align: center;
+	background-color: #ffffff;	
+	color: #984383;
+	}
+
+
+html>body .CalendarOtherMonthTodayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthTodayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthTodayPLD2012 a:link {
+	color: #984383;
+	}
+
+.CalendarOtherMonthTodayPLD2012 a:visited{
+	color: #984383;
+	}
+
+.CalendarOtherMonthTodayPLD2012 a:hover, .CalendarOtherMonthTodayPLD2012 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekendPLD2012 {
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: center;
+	background-color: #ffffff;	
+	color: #984383;
+	}
+
+
+html>body .CalendarOtherMonthWeekendPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendPLD2012 a:link {
+	color: #984383;
+	}
+
+.CalendarOtherMonthWeekendPLD2012 a:visited{
+	color: #984383;
+	}
+
+.CalendarOtherMonthWeekendPLD2012 a:hover, .CalendarOtherMonthWeekendPLD2012 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendTodayPLD2012 {
+	font-family: Arial; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #984383;
+	text-align: center;
+	color: #984383;
+	background-color: #ffffff;	
+	}
+	
+
+html>body .CalendarOtherMonthWeekendTodayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendTodayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendTodayPLD2012 a:link {
+	color: #984383;
+	}
+
+.CalendarOtherMonthWeekendTodayPLD2012 a:visited{
+	color: #984383;
+	}
+
+.CalendarOtherMonthWeekendTodayPLD2012 a:hover, .CalendarOtherMonthWeekendTodayPLD2012 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDayPLD2012{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	background-color: #fee99a;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+html>body .CalendarSelectedDayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarSelectedDayPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarSelectedDayPLD2012 a:link {
+	color: #000000;
+	}
+
+.CalendarSelectedDayPLD2012 a:visited{
+	color: #000000;
+	}
+
+.CalendarSelectedDayPLD2012 a:hover, .CalendarSelectedDayPLD2012 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigatorPLD2012 {
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	background-color: #fee99a; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+html>body .CalendarNavigatorPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigatorPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarNavigatorPLD2012 a:link {
+	color: #0033cc;
+	}
+
+.CalendarNavigatorPLD2012 a:visited{
+	color: #840084;
+	}
+
+.CalendarNavigatorPLD2012 a:hover, .CalendarNavigatorPLD2012 a:active{
+	color: #ff0000;
+	}
+
+.CalendarNavigatorPLD2012 img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarNavigatorPLD2012 td {
+	font-family: Arial; font-size: 80%;
+	}
+
+.CalendarNavigatorPLD2012 th {
+	font-family: Arial; font-size: 80%;
+	}
+
+
+html>body .CalendarNavigatorPLD2012 th, html>body .CalendarNavigatorPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigatorPLD2012 th, * html body .CalendarNavigatorPLD2012 td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+/* Calendar Extra */
+.CalendarEventPLD2012{
+	font-family: Arial; font-size: 80%;
+	text-align: left;
+	}
+
+
+html>body .CalendarEventPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarEventPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarEventPLD2012 a:link {
+	color: #0033cc;
+	}
+
+.CalendarEventPLD2012 a:visited{
+	color: #840084;
+	}
+
+.CalendarEventPLD2012 a:hover, .CalendarEventPLD2012 a:active{
+	color: #ff0000;
+	}
+
+/* Changes for Section508 */
+table tr td strong {
+	padding: 0px;
+	margin: 0px;
+}
+
+.thPLD2012 { 
+	font-family: Arial; font-size: 80%;
+	font-weight: bold;
+}
+
+
+html>body .thPLD2012 {
+	font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .thPLD2012 {
+	font-size: 100%;
+}
+/*end*/
+
+.HeaderPLD2012 .thPLD2012 { 
+	font-family: Arial; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 3px;
+	background-color: #984383; color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+}
+
+
+html>body .HeaderPLD2012 .thPLD2012 {
+	font-family: Arial; font-size: 140%; font-weight: bold; text-align: left;
+}
+
+
+/*ie6*/
+* html body .HeaderPLD2012 .thPLD2012 {
+	font-family: Arial; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.CaptionPLD2012 .thPLD2012 { 
+	font-family: Arial; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	
+	background-color: #fee99a; color: #000000;
+	white-space: nowrap;
+}
+
+
+html>body .CaptionPLD2012 .thPLD2012 {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .CaptionPLD2012 .thPLD2012 {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.RowPLD2012 .thPLD2012 { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	
+	background-color: #ffffff; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.AltRowPLD2012 .thPLD2012 { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	
+	background-color: #ffffff; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.ControlsPLD2012 .thPLD2012 { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	
+	background-color: #ffffff; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.GroupCaptionPLD2012 .thPLD2012 {
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #ffffff; 
+	color: #000000;
+}
+
+
+html>body .GroupCaptionPLD2012 .thPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+html>body .RowPLD2012 .thPLD2012, html>body .AltRowPLD2012 .thPLD2012, html>body .ControlsPLD2012 .thPLD2012 {
+	font-family: Arial; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .GroupCaptionPLD2012 .thPLD2012 {
+	font-family: Arial; font-size: 100%;
+}
+
+* html body .RowPLD2012 .thPLD2012, * html body .AltRowPLD2012 .thPLD2012, * html body .ControlsPLD2012 .thPLD2012 {
+	font-family: Arial; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+/*end*/
+
+/* Class for Application Builder Menu */
+.simpleMenuPLD2012 td {
+	font-family: Arial; font-size: 80%;
+}
+
+
+html>body .simpleMenuPLD2012 td {
+	font-family: Arial; font-size: 100%;
+} 
+
+
+/*ie6*/
+* html body .simpleMenuPLD2012 td {
+	font-family: Arial; font-size: 100%;
+} 
+/*end*/

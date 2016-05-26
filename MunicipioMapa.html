@@ -1,0 +1,295 @@
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=windows-1252">
+<title>Resultado Municipio</title>
+<script type="text/javascript" src="{page:pathToRoot}jquery.js"></script>
+<script type="text/javascript" src="{page:pathToRoot}script.js"></script>
+<script language="JavaScript" src="./FusionCharts/FusionCharts.js"></script>
+<link rel="stylesheet" type="text/css" href="Styles/PLD2012/Style.css">
+<link rel="stylesheet" type="text/css" href="{page:pathToRoot}style.css">
+<!--[if IE 6]><link rel="stylesheet" href="{page:pathToRoot}style.ie6.css" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 7]><LINK 
+rel=stylesheet type=text/css href="{page:pathToRoot}style.ie7.css" media=screen><![endif]-->
+<script language="JavaScript" type="text/javascript">
+//Begin CCS script
+
+//Include Common JSFunctions @1-252A7665
+</script>
+<script language="JavaScript" src="ClientI18N.php?file=Functions.js&locale={res:CCS_LocaleID}" type="text/javascript" charset="windows-1252"></script>
+<script language="JavaScript" type="text/javascript">
+//End Include Common JSFunctions
+
+//_OnLoad @1-9C4F01C0
+function _OnLoad()
+{
+    var result = true;
+//End _OnLoad
+
+//Custom Code @8-2A29BDB7
+    // -------------------------
+        $("ul.art-hmenu li:nth-child(3) a").addClass("active");
+    // -------------------------
+//End Custom Code
+
+//Close _OnLoad @1-BC33A33A
+    return result;
+}
+//End Close _OnLoad
+
+//bind_events @1-48CFBD6D
+function bind_events() {
+    if (functionExists("Header_bind_events")) Header_bind_events();
+    if (functionExists("Footer_bind_events")) Footer_bind_events();
+    addEventHandler("", "load", _OnLoad);
+}
+//End bind_events
+
+window.onload = bind_events; //Assign bind_events @1-19F7B649
+
+
+//End CCS script
+</script>
+</head>
+<body>
+{Header} 
+<table class="Header" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="HeaderLeft"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td> 
+    <th>
+    <p align="center">Municipios</p>
+    </th>
+ 
+    <td class="HeaderRight"><img border="0" src="Styles/Foggy3/Images/Spacer.gif"></td>
+  </tr>
+</table>
+<table class="Grid" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <div id="chartdiv" align="left">
+        The map will appear within this DIV. 
+      </div>
+    </td> 
+    <td>
+      <div align="right">
+        <select id="municipio" onchange="getmuni(this);">
+			<option value="39">ALTAMIRA</option>
+			<option value="634">AMSTERDAM</option>
+			<option value="119">ARENOSO</option>
+			<option value="10">AZUA</option>
+			<option value="93">BAJOS DE HAINA</option>
+			<option value="3">BANI</option>
+			<option value="15">BANICA</option>
+			<option value="18">BARAHONA</option>
+			<option value="617">BARCELONA</option>
+			<option value="4">BAYAGUANA</option>
+			<option value="226">BOCA CHICA</option>
+			<option value="109">BOHECHIO</option>
+			<option value="48">BONAO</option>
+			<option value="611">BOSTON</option>
+			<option value="19">CABRAL</option>
+			<option value="60">CABRERA</option>
+			<option value="104">CAMBITA GARABITOS</option>
+			<option value="101">CASTAÑUELAS</option>
+			<option value="59">CASTILLO</option>
+			<option value="88">CAYETANO GERMOSEN</option>
+			<option value="52">CEVICOS</option>
+			<option value="16">COMENDADOR</option>
+			<option value="53">CONSTANZA</option>
+			<option value="138">CONSUELO</option>
+			<option value="49">COTUI</option>
+			<option value="128">CRISTOBAL</option>
+			<option value="650">CURAZAO</option>
+			<option value="44">DAJABON</option>
+			<option value="1" selected>DISTRITO NACIONAL</option>
+			<option value="20">DUVERGE</option>
+			<option value="14">EL CERCADO</option>
+			<option value="136">EL FACTOR</option>
+			<option value="110">EL LLANO</option>
+			<option value="130">EL PEÑON</option>
+			<option value="151">EL PINO</option>
+			<option value="25">EL SEIBO</option>
+			<option value="100">EL VALLE</option>
+			<option value="21">ENRIQUILLO</option>
+			<option value="33">ESPERANZA</option>
+			<option value="132">ESTEBANIA</option>
+			<option value="63">EUGENIO MARIA DE HOSTOS</option>
+			<option value="87">FANTINO</option>
+			<option value="131">FUNDACION</option>
+			<option value="113">GALVAN</option>
+			<option value="61">GASPAR HERNANDEZ</option>
+			<option value="120">GUANANICO</option>
+			<option value="105">GUAYABAL</option>
+			<option value="364">GUAYACANES</option>
+			<option value="103">GUAYMATE</option>
+			<option value="45">GUAYUBIN</option>
+			<option value="27">HATO MAYOR</option>
+			<option value="28">HIGUEY</option>
+			<option value="75">HONDO VALLE</option>
+			<option value="38">IMBERT</option>
+			<option value="133">JAMAO AL NORTE</option>
+			<option value="35">JANICO</option>
+			<option value="167">JAQUIMEYES</option>
+			<option value="50">JARABACOA</option>
+			<option value="122">JIMA ABAJO</option>
+			<option value="77">JIMANI</option>
+			<option value="129">JUAN DE HERRERA</option>
+			<option value="144">JUAN SANTIAGO</option>
+			<option value="160">LA CIENAGA</option>
+			<option value="70">LA DESCUBIERTA</option>
+			<option value="26">LA ROMANA</option>
+			<option value="47">LA VEGA</option>
+			<option value="92">LAGUNA SALADA</option>
+			<option value="135">LAS CHARCAS</option>
+			<option value="143">LAS GUARANAS</option>
+			<option value="11">LAS MATAS DE FARFAN</option>
+			<option value="117">LAS MATAS DE SANTA CRUZ</option>
+			<option value="137">LAS SALINAS</option>
+			<option value="134">LAS TERRENAS</option>
+			<option value="125">LAS YAYAS DE VIAJAMA</option>
+			<option value="95">LICEY AL MEDIO</option>
+			<option value="73">LOMA DE CABRERA</option>
+			<option value="229">LOS ALCARRIZOS</option>
+			<option value="139">LOS CACAOS</option>
+			<option value="102">LOS HIDALGOS</option>
+			<option value="24">LOS LLANOS</option>
+			<option value="112">LOS RIOS</option>
+			<option value="40">LUPERON</option>
+			<option value="614">MADRID</option>
+			<option value="118">MAIMON</option>
+			<option value="34">MAO</option>
+			<option value="114">MELLA</option>
+			<option value="615">MIAMI</option>
+			<option value="29">MICHES</option>
+			<option value="636">MILANO</option>
+			<option value="54">MOCA</option>
+			<option value="42">MONCION</option>
+			<option value="8">MONTE PLATA</option>
+			<option value="41">MONTECRISTI</option>
+			<option value="618">MONTREAL</option>
+			<option value="71">NAGUA</option>
+			<option value="619">NEW JERSEY</option>
+			<option value="610">NEW YORK</option>
+			<option value="22">NEYBA</option>
+			<option value="84">NIZAO</option>
+			<option value="621">ORLANDO</option>
+			<option value="91">OVIEDO</option>
+			<option value="17">PADRE LAS CASAS</option>
+			<option value="633">PANAMA</option>
+			<option value="80">PARAISO</option>
+			<option value="115">PARTIDO</option>
+			<option value="69">PEDERNALES</option>
+			<option value="228">PEDRO BRAND</option>
+			<option value="74">PEDRO SANTANA</option>
+			<option value="86">PEPILLO SALCEDO</option>
+			<option value="106">PERALTA</option>
+			<option value="153">PERALVILLO</option>
+			<option value="616">PHILADELPHIA</option>
+			<option value="123">PIEDRA BLANCA</option>
+			<option value="57">PIMENTEL</option>
+			<option value="111">POLO</option>
+			<option value="99">POSTRER RIO</option>
+			<option value="154">PUEBLO VIEJO</option>
+			<option value="37">PUERTO PLATA</option>
+			<option value="612">PUERTO RICO</option>
+			<option value="350">PUÑAL</option>
+			<option value="146">QUISQUEYA</option>
+			<option value="30">RAMON SANTANA</option>
+			<option value="152">RANCHO ARRIBA</option>
+			<option value="43">RESTAURACION</option>
+			<option value="81">RIO SAN JUAN</option>
+			<option value="67">SABANA DE LA MAR</option>
+			<option value="90">SABANA GRANDE DE BOYA</option>
+			<option value="83">SABANA GRANDE DE PALENQUE</option>
+			<option value="148">SABANA IGLESIA</option>
+			<option value="150">SABANA LARGA</option>
+			<option value="107">SABANA YEGUA</option>
+			<option value="55">SALCEDO</option>
+			<option value="65">SAMANA</option>
+			<option value="227">SAN ANTONIO DE GUERRA</option>
+			<option value="2">SAN CRISTOBAL</option>
+			<option value="56">SAN FRANCISCO DE MACORIS</option>
+			<option value="140">SAN GREGORIO DE NIGUA</option>
+			<option value="46">SAN IGNACIO DE SABANETA</option>
+			<option value="36">SAN JOSE DE LAS MATAS</option>
+			<option value="13">SAN JOSE DE OCOA</option>
+			<option value="12">SAN JUAN DE LA MAGUANA</option>
+			<option value="620">SAN MARTIN</option>
+			<option value="23">SAN PEDRO DE MACORIS</option>
+			<option value="85">SAN RAFAEL DEL YUMA</option>
+			<option value="66">SANCHEZ</option>
+			<option value="31">SANTIAGO DE LOS CABALLEROS</option>
+			<option value="223">SANTO DOMINGO ESTE</option>
+			<option value="225">SANTO DOMINGO NORTE</option>
+			<option value="224">SANTO DOMINGO OESTE</option>
+			<option value="97">SOSUA</option>
+			<option value="126">TABARA ARRIBA</option>
+			<option value="76">TAMAYO</option>
+			<option value="32">TAMBORIL</option>
+			<option value="64">TENARES</option>
+			<option value="622">TORONTO</option>
+			<option value="108">VALLEJUELO</option>
+			<option value="613">VENEZUELA</option>
+			<option value="79">VICENTE NOBLE</option>
+			<option value="68">VILLA ALTAGRACIA</option>
+			<option value="96">VILLA BISONO -NAVARRETE-</option>
+			<option value="94">VILLA GONZALEZ</option>
+			<option value="295">VILLA HERMOSA</option>
+			<option value="121">VILLA ISABELA</option>
+			<option value="78">VILLA JARAGUA</option>
+			<option value="155">VILLA LA MATA</option>
+			<option value="116">VILLA LOS ALMACIGOS</option>
+			<option value="175">VILLA MONTELLANO</option>
+			<option value="58">VILLA RIVA</option>
+			<option value="51">VILLA TAPIA</option>
+			<option value="72">VILLA VASQUEZ</option>
+			<option value="637">WASHINGTON DC</option>
+			<option value="82">YAGUATE</option>
+			<option value="5">YAMASA</option>
+			<option value="635">ZURICH</option>            
+        </select>
+      </div>
+ 
+      <div>
+        {GrafRegional}
+      </div>
+    </td>
+  </tr>
+ 
+  <tr>
+    <td colspan="2">
+      <h1 id="title" align="center">Seleccione municipio para obtener resultado.&nbsp; </h1>
+      <input id="over" type="hidden"></td>
+  </tr>
+ 
+  <tr>
+    <td colspan="2">{MunicipioResult}</td>
+  </tr>
+</table>
+{Footer}
+<script type="text/javascript">
+      var myChart = new FusionCharts("./FusionCharts/Charts/FCMap_DR_Municipalities.swf", "myMap", "550", "400", "0", "2");
+      myChart.setDataURL("./maps/municipio.php?source=1");                
+      myChart.render("chartdiv");
+</script>
+<script type="text/javascript">
+      function updater(region){
+        parent.graph.location='./graphs/municipio.php?mun=' + region;
+        parent.result.location='./municipio.php?source=1&municipio=' + region;
+        document.getElementById("title").innerHTML = document.getElementById("over").value;
+        document.getElementById("municipio").value = region;
+      }
+      function FC_Event(DOMId, eventType, objParams){
+        if (eventType=="rollOver"){
+            document.getElementById("over").value = objParams.lName;
+        }else{
+            document.getElementById("over").value = "Seleccione municipio para obtener resultado.";
+        }
+      }
+      function getmuni(selection) {
+        parent.graph.location='./graphs/municipio.php?mun=' + selection.options[selection.selectedIndex].value;
+        parent.result.location='./municipio.php?source=1&municipio=' + selection.options[selection.selectedIndex].value;
+        document.getElementById("title").innerHTML = selection.options[selection.selectedIndex].text;
+      }
+</script>
+</body>
+</html>

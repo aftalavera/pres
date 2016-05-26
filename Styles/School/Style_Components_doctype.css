@@ -1,0 +1,1224 @@
+/* CCSTheme v 3.x */
+/* General */
+
+/* Colors */
+.PageBgColorSchool {
+	background-color: #cfcfcf;
+	}
+
+.FormTitleBgColorSchool {
+	background-color: #787878;
+	}
+
+.FormTitleFontColorSchool {
+	color: #ffffff;
+	}
+
+.CaptionBgColorSchool {
+	background-color: #d7d7d7;
+	}
+
+.CaptionFontColorSchool {
+	color: #000000;
+	}
+
+.DataBgColorSchool {
+	background-color: #f7f7f7;
+	}
+
+.AltDataBgColorSchool {
+	background-color: #ededed;
+	}
+
+.DataFontColorSchool {
+	color: #000000;
+	}
+
+.LinkColorSchool {
+	color: #0033cc;
+	}
+
+.VisitedLinkColorSchool {
+	color: #830083;
+	}
+
+.HoverLinkColorSchool {
+	color: #ff0000;
+	}
+
+.ColorBgButtonSchool {
+	background-color: #787878;
+}
+
+.ColorFontButtonSchool {
+	color: #ffffff;
+}
+
+.ColorBgButtonPassiveSchool {
+	background-color: #bababa;
+}
+
+.ColorFontButtonPassiveSchool {
+	color: #ffffff;
+}
+
+
+
+.HeaderSchool {
+	width: 100%;
+	}
+
+.HeaderSchool th { 
+	font-family: Tahoma; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 3px;
+	background-image: url('Images/HeaderBg.gif'); color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+	background-position: right top; padding-left: 8px;
+	}
+
+
+html>body .HeaderSchool th {
+	font-family: Tahoma; font-size: 140%; font-weight: bold; text-align: left;
+}
+
+
+/*ie6*/
+* html body .HeaderSchool th {
+	font-family: Tahoma; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.HeaderSchool a:link { 
+	color: #ffffff;
+	}
+
+.HeaderSchool a:visited { 
+	color: #ffffff;
+	}
+
+.HeaderSchool a:hover, .CaptionSchool a:active { 
+	color: #ffffff; text-decoration: none;
+	}
+
+.HeaderLeftSchool { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRightSchool { 
+	background-image: url('Images/HeaderRight.gif');
+	background-position: right top;
+	}
+
+.HeaderLeftSchool img{
+	width: 1px;
+	}
+
+.HeaderRightSchool img{
+	width: 12px;
+	}
+
+
+/* Grid Options */
+.GridSchool { 
+	border: 1px solid #787878; border-left: 0px;
+	width: 100%;
+	}
+
+.CaptionSchool th { 
+	font-family: Tahoma; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #787878; border-left: 1px solid #787878; border-bottom: 1px solid #787878;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	white-space: nowrap;
+	}
+
+.CaptionSchool td { 
+	font-family: Tahoma; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #787878; border-left: 1px solid #787878; border-bottom: 1px solid #787878;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	white-space: nowrap;
+	}
+
+
+html>body .CaptionSchool th, html>body .CaptionSchool td {
+	font-family: Tahoma; font-size: 100%; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .CaptionSchool th, * html body .CaptionSchool td {
+	font-family: Tahoma; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.CaptionSchool a:link { 
+	color: #000000;
+	}
+
+.CaptionSchool a:visited { 
+	color: #000000;
+	}
+
+.CaptionSchool a:hover, .CaptionSchool a:active { 
+	color: #ff0000;
+	}
+
+.CaptionSchool img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.CaptionSchool input {
+	vertical-align: middle;
+	}
+
+.RowSchool th { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.RowSchool td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+	
+
+html>body .RowSchool th, html>body .RowSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .RowSchool th, * html body .RowSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+caption.RowSchool { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border: 1px solid #787878; border-bottom: 0px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+
+
+html>body caption.RowSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body caption.RowSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.RowSchool a:link { 
+	color: #0033cc;
+	}
+
+.RowSchool a:visited { 
+	color: #830083;
+	}
+
+.RowSchool a:hover, .RowSchool a:active { 
+	color: #ff0000;
+	}
+
+.SeparatorSchool{
+	color: #787878;
+	}
+
+.SeparatorSchool td{
+	height: 1px;
+	}
+
+
+.AltRowSchool th { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.AltRowSchool td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: left;
+	vertical-align: top;
+	background-color: #ededed; 
+	color: #000000;
+	}
+
+
+html>body .AltRowSchool th, html>body .AltRowSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .AltRowSchool th, * html body .AltRowSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.AltRowSchool a:link { 
+	color: #0033cc;
+	}
+
+.AltRowSchool a:visited { 
+	color: #830083;
+	}
+
+.AltRowSchool a:hover, .AltRowSchool a:active { 
+	color: #ff0000;
+	}
+
+.NoRecordsSchool td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: left;
+	background-color: #f7f7f7; 
+	color: #000000;
+	vertical-align: top;
+	}
+
+.FooterSchool td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #787878; border-left: 1px solid #787878;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+html>body .NoRecordsSchool td, html>body .FooterSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .NoRecordsSchool td, * html body .FooterSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.FooterSchool a:link { 
+	color: #0033cc;
+	}
+
+.FooterSchool a:visited { 
+	color: #830083;
+	}
+
+.FooterSchool a:hover, .FooterSchool a:active { 
+	color: #ff0000;
+	}
+
+.FooterSchool img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.FooterSchool input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.RecordSchool { 
+	border: 1px solid #787878; border-left: 0px;
+	width: 100%;
+	}
+
+.ErrorSchool td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #787878; border-left: 1px solid #787878; border-bottom: 1px solid #787878;
+	text-align: left;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	}
+
+
+* html>body .ErrorSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .ErrorSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.ControlsSchool th { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.ControlsSchool td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+	
+.BottomSchool td { 
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #787878; border-left: 1px solid #787878;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+html>body .ControlsSchool th, html>body .ControlsSchool td, html>body .BottomSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .ControlsSchool th, * html body .ControlsSchool td, * html body .BottomSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.BottomSchool a:link { 
+	color: #0033cc;
+	}
+
+.BottomSchool a:visited { 
+	color: #830083;
+	}
+
+.BottomSchool a:hover, .CaptionSchool a:active { 
+	color: #ff0000;
+	}
+
+.BottomSchool img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.BottomSchool input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaptionSchool th{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #ededed; 
+	color: #000000;
+	}
+
+.GroupCaptionSchool td{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+
+
+html>body .GroupCaptionSchool th, html>body .GroupCaptionSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .GroupCaptionSchool th, * html body .GroupCaptionSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.GroupCaptionSchool a:link {
+	color: #000000;
+	}
+
+.GroupCaptionSchool a:visited{
+	color: #000000;
+	}
+
+.GroupCaptionSchool a:hover, .GroupCaptionSchool a:active{
+	color: #ff0000;
+	}
+
+.GroupFooterSchool td{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #787878; border-left: 1px solid #787878;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #d7d7d7; 
+	color: #000000;
+	}
+
+
+html>body .GroupFooterSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .GroupFooterSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.GroupFooterSchool a:link {
+	color: #0033cc;
+	}
+
+.GroupFooterSchool a:visited{
+	color: #830083;
+	}
+
+.GroupFooterSchool a:hover, .GroupFooterSchool a:active{
+	color: #ff0000;
+	}
+
+.GroupFooterSchool img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooterSchool input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.SubTotalSchool td{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #ededed; 
+	color: #000000;
+	border-bottom: 2px solid #787878;
+	}
+
+
+html>body .SubTotalSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .SubTotalSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.SubTotalSchool a:link {
+	color: #0033cc;
+	}
+
+.SubTotalSchool a:visited{
+	color: #830083;
+	}
+
+.SubTotalSchool a:hover, .SubTotalSchool a:active{
+	color: #ff0000;
+	}
+
+.TotalSchool td{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #ededed; 
+	color: #000000;
+	}
+
+
+html>body .TotalSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .TotalSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.TotalSchool a:link {
+	color: #0033cc;
+	}
+
+.TotalSchool a:visited{
+	color: #830083;
+	}
+
+.TotalSchool a:hover, .TotalSchool a:active{
+	color: #ff0000;
+	}
+
+/* Form Options */
+.ButtonSchool { 
+	background-color: #ededed; color: #000000; border: solid 1px #787878; padding: 2px; font-weight: bold; font-size: 85%; font-family: Tahoma;
+	}
+
+/* Calendar */
+
+.CalendarSchool { 
+	border: 1px solid #787878;
+	width: 100%;
+	}
+
+.CalendarWeekdayNameSchool{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #787878; border-left: 1px solid #787878; border-bottom: 1px solid #787878;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #ededed; 
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekdayNameSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekdayNameSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekdayNameSchool a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekdayNameSchool a:visited{
+	color: #830083;
+	}
+
+.CalendarWeekdayNameSchool a:hover, .CalendarWeekdayNameSchool a:active{
+	color: #ff0000;
+	}
+
+.CalendarWeekendNameSchool{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #787878; border-left: 1px solid #787878; border-bottom: 1px solid #787878;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #ededed;	
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekendNameSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendNameSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendNameSchool a:link {
+	color: #000000;
+	}
+
+.CalendarWeekendNameSchool a:visited{
+	color: #000000;
+	}
+
+.CalendarWeekendNameSchool a:link, .CalendarWeekendNameSchool a:visited{
+	color: #ff0000;
+	}
+
+/* Calendar Day */
+.CalendarDaySchool{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #000000;
+	}
+
+
+html>body .CalendarDaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarDaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarDaySchool a:link {
+	color: #0033cc;
+	}
+
+.CalendarDaySchool a:visited{
+	color: #830083;
+	}
+
+.CalendarDaySchool a:hover, .CalendarDaySchool a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekendSchool{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: center;
+	background-color: #ededed;	
+	color: #000000;
+	}
+
+
+html>body .CalendarWeekendSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendSchool a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekendSchool a:visited{
+	color: #830083;
+	}
+
+.CalendarWeekendSchool a:hover, .CalendarWeekendSchool a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Today */
+.CalendarTodaySchool {
+	font-family: Tahoma; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #787878; border-right: 1px solid #787878;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #000000;
+	}
+
+
+html>body .CalendarTodaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarTodaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarTodaySchool a:link {
+	color: #0033cc;
+	}
+
+.CalendarTodaySchool a:visited{
+	color: #830083;
+	}
+
+.CalendarTodaySchool a:hover, .CalendarTodaySchool a:active {
+	color: #ff0000;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendTodaySchool {
+	font-family: Tahoma; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #787878; border-right: 1px solid #787878;
+	text-align: center;
+	background-color: #ededed;	
+	color: #000000;
+	}
+
+
+html>body .CalendarWeekendTodaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendTodaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendTodaySchool a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekendTodaySchool a:visited{
+	color: #830083;
+	}
+
+.CalendarWeekendTodaySchool a:hover, .CalendarWeekendTodaySchool a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDaySchool{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #787878;
+	}
+
+
+html>body .CalendarOtherMonthDaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthDaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthDaySchool a:link {
+	color: #787878;
+	}
+
+.CalendarOtherMonthDaySchool a:visited{
+	color: #787878;
+	}
+
+.CalendarOtherMonthDaySchool a:hover, .CalendarOtherMonthDaySchool a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthTodaySchool {
+	font-family: Tahoma; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #787878; border-right: 1px solid #787878;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #787878;
+	}
+
+
+html>body .CalendarOtherMonthTodaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthTodaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthTodaySchool a:link {
+	color: #787878;
+	}
+
+.CalendarOtherMonthTodaySchool a:visited{
+	color: #787878;
+	}
+
+.CalendarOtherMonthTodaySchool a:hover, .CalendarOtherMonthTodaySchool a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekendSchool {
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: center;
+	background-color: #ededed;	
+	color: #787878;
+	}
+
+
+html>body .CalendarOtherMonthWeekendSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendSchool a:link {
+	color: #787878;
+	}
+
+.CalendarOtherMonthWeekendSchool a:visited{
+	color: #787878;
+	}
+
+.CalendarOtherMonthWeekendSchool a:hover, .CalendarOtherMonthWeekendSchool a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendTodaySchool {
+	font-family: Tahoma; font-size: 80%;
+	padding: 1px;
+	border: 2px solid #787878; border-right: 1px solid #787878;
+	text-align: center;
+	color: #787878;
+	background-color: #ededed;	
+	}
+	
+
+html>body .CalendarOtherMonthWeekendTodaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendTodaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendTodaySchool a:link {
+	color: #787878;
+	}
+
+.CalendarOtherMonthWeekendTodaySchool a:visited{
+	color: #787878;
+	}
+
+.CalendarOtherMonthWeekendTodaySchool a:hover, .CalendarOtherMonthWeekendTodaySchool a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDaySchool{
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	background-color: #d7d7d7;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+html>body .CalendarSelectedDaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarSelectedDaySchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarSelectedDaySchool a:link {
+	color: #000000;
+	}
+
+.CalendarSelectedDaySchool a:visited{
+	color: #000000;
+	}
+
+.CalendarSelectedDaySchool a:hover, .CalendarSelectedDaySchool a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigatorSchool {
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+html>body .CalendarNavigatorSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigatorSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarNavigatorSchool a:link {
+	color: #0033cc;
+	}
+
+.CalendarNavigatorSchool a:visited{
+	color: #830083;
+	}
+
+.CalendarNavigatorSchool a:hover, .CalendarNavigatorSchool a:active{
+	color: #ff0000;
+	}
+
+.CalendarNavigatorSchool img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarNavigatorSchool td {
+	font-family: Tahoma; font-size: 80%;
+	}
+
+.CalendarNavigatorSchool th {
+	font-family: Tahoma; font-size: 80%;
+	}
+
+
+html>body .CalendarNavigatorSchool th, html>body .CalendarNavigatorSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigatorSchool th, * html body .CalendarNavigatorSchool td {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+/* Calendar Extra */
+.CalendarEventSchool{
+	font-family: Tahoma; font-size: 80%;
+	text-align: left;
+	}
+
+
+html>body .CalendarEventSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .CalendarEventSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+/*end*/
+
+.CalendarEventSchool a:link {
+	color: #0033cc;
+	}
+
+.CalendarEventSchool a:visited{
+	color: #830083;
+	}
+
+.CalendarEventSchool a:hover, .CalendarEventSchool a:active{
+	color: #ff0000;
+	}
+
+/* Changes for Section508 */
+table tr td strong {
+	padding: 0px;
+	margin: 0px;
+}
+
+.thSchool { 
+	font-family: Tahoma; font-size: 80%;
+	font-weight: bold;
+}
+
+
+html>body .thSchool {
+	font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .thSchool {
+	font-size: 100%;
+}
+/*end*/
+
+.HeaderSchool .thSchool { 
+	font-family: Tahoma; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 3px;
+	background-image: url('Images/HeaderBg.gif'); color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+}
+
+
+html>body .HeaderSchool .thSchool {
+	font-family: Tahoma; font-size: 140%; font-weight: bold; text-align: left;
+}
+
+
+/*ie6*/
+* html body .HeaderSchool .thSchool {
+	font-family: Tahoma; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.CaptionSchool .thSchool { 
+	font-family: Tahoma; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #787878; border-left: 1px solid #787878; border-bottom: 1px solid #787878;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	white-space: nowrap;
+}
+
+
+html>body .CaptionSchool .thSchool {
+	font-family: Tahoma; font-size: 100%; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .CaptionSchool .thSchool {
+	font-family: Tahoma; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.RowSchool .thSchool { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.AltRowSchool .thSchool { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.ControlsSchool .thSchool { 
+	font-family: Tahoma; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.GroupCaptionSchool .thSchool {
+	font-family: Tahoma; font-size: 80%;
+	padding: 3px;
+	border-left: 1px solid #787878;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #ededed; 
+	color: #000000;
+}
+
+
+html>body .GroupCaptionSchool .thSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+html>body .RowSchool .thSchool, html>body .AltRowSchool .thSchool, html>body .ControlsSchool .thSchool {
+	font-family: Tahoma; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .GroupCaptionSchool .thSchool {
+	font-family: Tahoma; font-size: 100%;
+}
+
+* html body .RowSchool .thSchool, * html body .AltRowSchool .thSchool, * html body .ControlsSchool .thSchool {
+	font-family: Tahoma; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+/*end*/
+
+/* Class for Application Builder Menu */
+.simpleMenuSchool td {
+	font-family: Tahoma; font-size: 80%;
+}
+
+
+html>body .simpleMenuSchool td {
+	font-family: Tahoma; font-size: 100%;
+} 
+
+
+/*ie6*/
+* html body .simpleMenuSchool td {
+	font-family: Tahoma; font-size: 100%;
+} 
+/*end*/

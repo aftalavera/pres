@@ -1,0 +1,105 @@
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=windows-1252">
+<title>Resultado Provincia</title>
+<script type="text/javascript" src="{page:pathToRoot}jquery.js"></script>
+<script type="text/javascript" src="{page:pathToRoot}script.js"></script>
+<script language="JavaScript" src="FusionCharts/FusionCharts.js"></script>
+<link rel="stylesheet" type="text/css" href="Styles/PLD2012/Style.css">
+<link rel="stylesheet" type="text/css" href="{page:pathToRoot}style.css">
+<!--[if IE 6]><link rel="stylesheet" href="{page:pathToRoot}style.ie6.css" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 7]><LINK 
+rel=stylesheet type=text/css href="{page:pathToRoot}style.ie7.css" media=screen><![endif]-->
+<script language="JavaScript" type="text/javascript">
+//Begin CCS script
+
+//Include Common JSFunctions @1-252A7665
+</script>
+<script language="JavaScript" src="ClientI18N.php?file=Functions.js&locale={res:CCS_LocaleID}" type="text/javascript" charset="windows-1252"></script>
+<script language="JavaScript" type="text/javascript">
+//End Include Common JSFunctions
+
+//_OnLoad @1-9C4F01C0
+function _OnLoad()
+{
+    var result = true;
+//End _OnLoad
+
+//Custom Code @8-2A29BDB7
+    // -------------------------
+    $("ul.art-hmenu li:nth-child(2) a").addClass("active");
+    // -------------------------
+//End Custom Code
+
+//Close _OnLoad @1-BC33A33A
+    return result;
+}
+//End Close _OnLoad
+
+//bind_events @1-48CFBD6D
+function bind_events() {
+    if (functionExists("Header_bind_events")) Header_bind_events();
+    if (functionExists("Footer_bind_events")) Footer_bind_events();
+    addEventHandler("", "load", _OnLoad);
+}
+//End bind_events
+
+window.onload = bind_events; //Assign bind_events @1-19F7B649
+
+
+//End CCS script
+</script>
+</head>
+<body>
+{Header} 
+<table class="Header" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="HeaderLeft"><img border="0" src="Styles/PLD2012/Images/Spacer.gif"></td> 
+    <th>
+    <p align="center">Provincias</p>
+    </th>
+ 
+    <td class="HeaderRight"><img border="0" src="Styles/PLD2012/Images/Spacer.gif"></td>
+  </tr>
+</table>
+<table class="Grid" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <div id="chartdiv" align="left">
+        The map will appear within this DIV. 
+      </div>
+    </td> 
+    <td>{GrafRegional}</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <h1 id="selected" align="center">Seleccione provincia para obtener resultado.</h1>
+      <input id="over" type="hidden"></td>
+  </tr>
+  <tr>
+    <td colspan="2">{ProvinciaResult}</td>
+  </tr>
+</table>
+{Footer}
+<script type="text/javascript">
+      var myChart = new FusionCharts("./FusionCharts/Charts/FCMap_DominicanRepublic.swf", "MyMap", "550", "400", "0", "1");
+      myChart.setDataURL("./maps/provincia.php?source=1");                
+      myChart.render("chartdiv");
+</script>
+<script type="text/javascript">
+      function updater(region){
+        parent.graph.location='./graphs/provincia.php?prov=' + region;
+        parent.result.location='./provincia.php?source=1&provincia=' + region;
+        document.getElementById("selected").innerHTML = document.getElementById("over").value;
+      }
+
+      function FC_Event(DOMId, eventType, objParams){
+            if (eventType=="rollOver"){
+                document.getElementById("over").value = objParams.lName;
+            }else{
+                document.getElementById("over").value = "Seleccione provincia para obtener resultado.";
+            }
+      }
+</script>
+</body>
+</html>

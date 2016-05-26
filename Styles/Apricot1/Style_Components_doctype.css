@@ -1,0 +1,1224 @@
+/* CCSTheme v 3.x */
+/* General */
+
+/* Colors */
+.PageBgColorApricot1 {
+	background-color: #e6d9cb;
+	}
+
+.FormTitleBgColorApricot1 {
+	background-color: #d15406;
+	}
+
+.FormTitleFontColorApricot1 {
+	color: #ffffff;
+	}
+
+.CaptionBgColorApricot1 {
+	background-color: #d9d9d9;
+	}
+
+.CaptionFontColorApricot1 {
+	color: #000000;
+	}
+
+.DataBgColorApricot1 {
+	background-color: #f7f7f7;
+	}
+
+.AltDataBgColorApricot1 {
+	background-color: #ebebeb;
+	}
+
+.DataFontColorApricot1 {
+	color: #000000;
+	}
+
+.LinkColorApricot1 {
+	color: #0033cc;
+	}
+
+.VisitedLinkColorApricot1 {
+	color: #840000;
+	}
+
+.HoverLinkColorApricot1 {
+	color: #ff0000;
+	}
+
+.ColorBgButtonApricot1 {
+	background-color: #d15406;
+}
+
+.ColorFontButtonApricot1 {
+	color: #ffffff;
+}
+
+.ColorBgButtonPassiveApricot1 {
+	background-color: #ffa36a;
+}
+
+.ColorFontButtonPassiveApricot1 {
+	color: #ffffff;
+}
+
+
+
+.HeaderApricot1 {
+	width: 170px;
+	}
+
+.HeaderApricot1 th { 
+	font-family: Franklin Gothic Medium; font-size: 110%; text-align: left;
+	padding: 2px;
+	background-color: #d15406; color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+	background-position: right top; padding-left: 8px;
+	}
+
+
+html>body .HeaderApricot1 th {
+	font-family: Franklin Gothic Medium; font-size: 138%; text-align: left;
+}
+
+
+/*ie6*/
+* html body .HeaderApricot1 th {
+	font-family: Franklin Gothic Medium; font-size: 138%; text-align: left;
+}
+/*end*/
+
+.HeaderApricot1 a:link { 
+	color: #ffffff;
+	}
+
+.HeaderApricot1 a:visited { 
+	color: #ffffff;
+	}
+
+.HeaderApricot1 a:hover, .CaptionApricot1 a:active { 
+	color: #ffffff; text-decoration: none;
+	}
+
+.HeaderLeftApricot1 { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRightApricot1 { 
+	background-image: url('Images/HeaderRight.gif');
+	background-position: right top;
+	}
+
+.HeaderLeftApricot1 img{
+	width: 1px;
+	}
+
+.HeaderRightApricot1 img{
+	width: 14px;
+	}
+
+
+/* Grid Options */
+.GridApricot1 { 
+	border: 1px solid #d15406;
+	width: 100%;
+	}
+
+.CaptionApricot1 th { 
+	font-family: Franklin Gothic Book; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF;
+	background-color: #d9d9d9; color: #000000;
+	white-space: nowrap;
+	}
+
+.CaptionApricot1 td { 
+	font-family: Franklin Gothic Book; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF;
+	background-color: #d9d9d9; color: #000000;
+	white-space: nowrap;
+	}
+
+
+html>body .CaptionApricot1 th, html>body .CaptionApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .CaptionApricot1 th, * html body .CaptionApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.CaptionApricot1 a:link { 
+	color: #000000;
+	}
+
+.CaptionApricot1 a:visited { 
+	color: #000000;
+	}
+
+.CaptionApricot1 a:hover, .CaptionApricot1 a:active { 
+	color: #ff0000;
+	}
+
+.CaptionApricot1 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.CaptionApricot1 input {
+	vertical-align: middle;
+	}
+
+.RowApricot1 th { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.RowApricot1 td { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+	
+
+html>body .RowApricot1 th, html>body .RowApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .RowApricot1 th, * html body .RowApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+caption.RowApricot1 { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border: 1px solid #d15406; border-bottom: 0px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+
+
+html>body caption.RowApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body caption.RowApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.RowApricot1 a:link { 
+	color: #0033cc;
+	}
+
+.RowApricot1 a:visited { 
+	color: #840000;
+	}
+
+.RowApricot1 a:hover, .RowApricot1 a:active { 
+	color: #ff0000;
+	}
+
+.SeparatorApricot1{
+	color: #d15406;
+	}
+
+.SeparatorApricot1 td{
+	height: 1px;
+	}
+
+
+.AltRowApricot1 th { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.AltRowApricot1 td { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #ebebeb; 
+	color: #000000;
+	}
+
+
+html>body .AltRowApricot1 th, html>body .AltRowApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .AltRowApricot1 th, * html body .AltRowApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.AltRowApricot1 a:link { 
+	color: #0033cc;
+	}
+
+.AltRowApricot1 a:visited { 
+	color: #840000;
+	}
+
+.AltRowApricot1 a:hover, .AltRowApricot1 a:active { 
+	color: #ff0000;
+	}
+
+.NoRecordsApricot1 td { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF;
+	text-align: left;
+	background-color: #f7f7f7; 
+	color: #000000;
+	vertical-align: top;
+	}
+
+.FooterApricot1 td { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-top: 1px solid #FFFFFF;
+	background-color: #d9d9d9; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+html>body .NoRecordsApricot1 td, html>body .FooterApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .NoRecordsApricot1 td, * html body .FooterApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.FooterApricot1 a:link { 
+	color: #0033cc;
+	}
+
+.FooterApricot1 a:visited { 
+	color: #840000;
+	}
+
+.FooterApricot1 a:hover, .FooterApricot1 a:active { 
+	color: #ff0000;
+	}
+
+.FooterApricot1 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.FooterApricot1 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.RecordApricot1 { 
+	border: 1px solid #d15406;
+	width: 100%;
+	}
+
+.ErrorApricot1 td { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF;
+	text-align: left;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	}
+
+
+* html>body .ErrorApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .ErrorApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.ControlsApricot1 th { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.ControlsApricot1 td { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+	
+.BottomApricot1 td { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-top: 1px solid #FFFFFF;
+	background-color: #d9d9d9; color: #000000;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+html>body .ControlsApricot1 th, html>body .ControlsApricot1 td, html>body .BottomApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .ControlsApricot1 th, * html body .ControlsApricot1 td, * html body .BottomApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.BottomApricot1 a:link { 
+	color: #0033cc;
+	}
+
+.BottomApricot1 a:visited { 
+	color: #840000;
+	}
+
+.BottomApricot1 a:hover, .CaptionApricot1 a:active { 
+	color: #ff0000;
+	}
+
+.BottomApricot1 img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.BottomApricot1 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaptionApricot1 th{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #ebebeb; 
+	color: #000000;
+	}
+
+.GroupCaptionApricot1 td{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+
+
+html>body .GroupCaptionApricot1 th, html>body .GroupCaptionApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .GroupCaptionApricot1 th, * html body .GroupCaptionApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.GroupCaptionApricot1 a:link {
+	color: #000000;
+	}
+
+.GroupCaptionApricot1 a:visited{
+	color: #000000;
+	}
+
+.GroupCaptionApricot1 a:hover, .GroupCaptionApricot1 a:active{
+	color: #ff0000;
+	}
+
+.GroupFooterApricot1 td{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-top: 1px solid #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #d9d9d9; 
+	color: #000000;
+	}
+
+
+html>body .GroupFooterApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .GroupFooterApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.GroupFooterApricot1 a:link {
+	color: #0033cc;
+	}
+
+.GroupFooterApricot1 a:visited{
+	color: #840000;
+	}
+
+.GroupFooterApricot1 a:hover, .GroupFooterApricot1 a:active{
+	color: #ff0000;
+	}
+
+.GroupFooterApricot1 img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooterApricot1 input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.SubTotalApricot1 td{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #ebebeb; 
+	color: #000000;
+	border-bottom: 2px solid #d15406;
+	}
+
+
+html>body .SubTotalApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .SubTotalApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.SubTotalApricot1 a:link {
+	color: #0033cc;
+	}
+
+.SubTotalApricot1 a:visited{
+	color: #840000;
+	}
+
+.SubTotalApricot1 a:hover, .SubTotalApricot1 a:active{
+	color: #ff0000;
+	}
+
+.TotalApricot1 td{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #ebebeb; 
+	color: #000000;
+	}
+
+
+html>body .TotalApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .TotalApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.TotalApricot1 a:link {
+	color: #0033cc;
+	}
+
+.TotalApricot1 a:visited{
+	color: #840000;
+	}
+
+.TotalApricot1 a:hover, .TotalApricot1 a:active{
+	color: #ff0000;
+	}
+
+/* Form Options */
+.ButtonApricot1 { 
+	background-color: #d15406; color: #ffffff; border-left: solid 1px #EDEDED; border-top: solid 1px #EDEDED; border-right: solid 1px #848284; border-bottom: solid 1px #848284; padding: 2px; font-weight: bold; font-family: Tahoma; font-size: 11px; font-weight: bold;
+	}
+
+/* Calendar */
+
+.CalendarApricot1 { 
+	border: 1px solid #d15406;
+	width: 100%;
+	}
+
+.CalendarWeekdayNameApricot1{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #ebebeb; 
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekdayNameApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekdayNameApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarWeekdayNameApricot1 a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekdayNameApricot1 a:visited{
+	color: #840000;
+	}
+
+.CalendarWeekdayNameApricot1 a:hover, .CalendarWeekdayNameApricot1 a:active{
+	color: #ff0000;
+	}
+
+.CalendarWeekendNameApricot1{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #ebebeb;	
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekendNameApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendNameApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarWeekendNameApricot1 a:link {
+	color: #000000;
+	}
+
+.CalendarWeekendNameApricot1 a:visited{
+	color: #000000;
+	}
+
+.CalendarWeekendNameApricot1 a:link, .CalendarWeekendNameApricot1 a:visited{
+	color: #ff0000;
+	}
+
+/* Calendar Day */
+.CalendarDayApricot1{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #000000;
+	}
+
+
+html>body .CalendarDayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarDayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarDayApricot1 a:link {
+	color: #0033cc;
+	}
+
+.CalendarDayApricot1 a:visited{
+	color: #840000;
+	}
+
+.CalendarDayApricot1 a:hover, .CalendarDayApricot1 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekendApricot1{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: center;
+	background-color: #ebebeb;	
+	color: #000000;
+	}
+
+
+html>body .CalendarWeekendApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarWeekendApricot1 a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekendApricot1 a:visited{
+	color: #840000;
+	}
+
+.CalendarWeekendApricot1 a:hover, .CalendarWeekendApricot1 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Today */
+.CalendarTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 0px;
+	border: 2px solid #d15406;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #000000;
+	}
+
+
+html>body .CalendarTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarTodayApricot1 a:link {
+	color: #0033cc;
+	}
+
+.CalendarTodayApricot1 a:visited{
+	color: #840000;
+	}
+
+.CalendarTodayApricot1 a:hover, .CalendarTodayApricot1 a:active {
+	color: #ff0000;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 0px;
+	border: 2px solid #d15406;
+	text-align: center;
+	background-color: #ebebeb;	
+	color: #000000;
+	}
+
+
+html>body .CalendarWeekendTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarWeekendTodayApricot1 a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekendTodayApricot1 a:visited{
+	color: #840000;
+	}
+
+.CalendarWeekendTodayApricot1 a:hover, .CalendarWeekendTodayApricot1 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDayApricot1{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #d15406;
+	}
+
+
+html>body .CalendarOtherMonthDayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthDayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarOtherMonthDayApricot1 a:link {
+	color: #d15406;
+	}
+
+.CalendarOtherMonthDayApricot1 a:visited{
+	color: #d15406;
+	}
+
+.CalendarOtherMonthDayApricot1 a:hover, .CalendarOtherMonthDayApricot1 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 0px;
+	border: 2px solid #d15406;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #d15406;
+	}
+
+
+html>body .CalendarOtherMonthTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarOtherMonthTodayApricot1 a:link {
+	color: #d15406;
+	}
+
+.CalendarOtherMonthTodayApricot1 a:visited{
+	color: #d15406;
+	}
+
+.CalendarOtherMonthTodayApricot1 a:hover, .CalendarOtherMonthTodayApricot1 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekendApricot1 {
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: center;
+	background-color: #ebebeb;	
+	color: #d15406;
+	}
+
+
+html>body .CalendarOtherMonthWeekendApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendApricot1 a:link {
+	color: #d15406;
+	}
+
+.CalendarOtherMonthWeekendApricot1 a:visited{
+	color: #d15406;
+	}
+
+.CalendarOtherMonthWeekendApricot1 a:hover, .CalendarOtherMonthWeekendApricot1 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 0px;
+	border: 2px solid #d15406;
+	text-align: center;
+	color: #d15406;
+	background-color: #ebebeb;	
+	}
+	
+
+html>body .CalendarOtherMonthWeekendTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendTodayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendTodayApricot1 a:link {
+	color: #d15406;
+	}
+
+.CalendarOtherMonthWeekendTodayApricot1 a:visited{
+	color: #d15406;
+	}
+
+.CalendarOtherMonthWeekendTodayApricot1 a:hover, .CalendarOtherMonthWeekendTodayApricot1 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDayApricot1{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	background-color: #d9d9d9;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+html>body .CalendarSelectedDayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarSelectedDayApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarSelectedDayApricot1 a:link {
+	color: #000000;
+	}
+
+.CalendarSelectedDayApricot1 a:visited{
+	color: #000000;
+	}
+
+.CalendarSelectedDayApricot1 a:hover, .CalendarSelectedDayApricot1 a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigatorApricot1 {
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	background-color: #d9d9d9; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+html>body .CalendarNavigatorApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigatorApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarNavigatorApricot1 a:link {
+	color: #0033cc;
+	}
+
+.CalendarNavigatorApricot1 a:visited{
+	color: #840000;
+	}
+
+.CalendarNavigatorApricot1 a:hover, .CalendarNavigatorApricot1 a:active{
+	color: #ff0000;
+	}
+
+.CalendarNavigatorApricot1 img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarNavigatorApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	}
+
+.CalendarNavigatorApricot1 th {
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	}
+
+
+html>body .CalendarNavigatorApricot1 th, html>body .CalendarNavigatorApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigatorApricot1 th, * html body .CalendarNavigatorApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+/* Calendar Extra */
+.CalendarEventApricot1{
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	text-align: left;
+	}
+
+
+html>body .CalendarEventApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+
+/*ie6*/
+* html body .CalendarEventApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+/*end*/
+
+.CalendarEventApricot1 a:link {
+	color: #0033cc;
+	}
+
+.CalendarEventApricot1 a:visited{
+	color: #840000;
+	}
+
+.CalendarEventApricot1 a:hover, .CalendarEventApricot1 a:active{
+	color: #ff0000;
+	}
+
+/* Changes for Section508 */
+table tr td strong {
+	padding: 0px;
+	margin: 0px;
+}
+
+.thApricot1 { 
+	font-family: Franklin Gothic Book; font-size: 80%;
+	font-weight: bold;
+}
+
+
+html>body .thApricot1 {
+	font-size: 100%;
+}
+
+
+/*ie6*/
+* html body .thApricot1 {
+	font-size: 100%;
+}
+/*end*/
+
+.HeaderApricot1 .thApricot1 { 
+	font-family: Franklin Gothic Medium; font-size: 110%; text-align: left;
+	padding: 2px;
+	background-color: #d15406; color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+}
+
+
+html>body .HeaderApricot1 .thApricot1 {
+	font-family: Franklin Gothic Medium; font-size: 138%; text-align: left;
+}
+
+
+/*ie6*/
+* html body .HeaderApricot1 .thApricot1 {
+	font-family: Franklin Gothic Medium; font-size: 138%; text-align: left;
+}
+/*end*/
+
+.CaptionApricot1 .thApricot1 { 
+	font-family: Franklin Gothic Book; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF;
+	background-color: #d9d9d9; color: #000000;
+	white-space: nowrap;
+}
+
+
+html>body .CaptionApricot1 .thApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .CaptionApricot1 .thApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.RowApricot1 .thApricot1 { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.AltRowApricot1 .thApricot1 { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.ControlsApricot1 .thApricot1 { 
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.GroupCaptionApricot1 .thApricot1 {
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+	padding: 2px;
+	border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #ebebeb; 
+	color: #000000;
+}
+
+
+html>body .GroupCaptionApricot1 .thApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+html>body .RowApricot1 .thApricot1, html>body .AltRowApricot1 .thApricot1, html>body .ControlsApricot1 .thApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .GroupCaptionApricot1 .thApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+}
+
+* html body .RowApricot1 .thApricot1, * html body .AltRowApricot1 .thApricot1, * html body .ControlsApricot1 .thApricot1 {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+/*end*/
+
+/* Class for Application Builder Menu */
+.simpleMenuApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 80%; font-weight: bold;
+}
+
+
+html>body .simpleMenuApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+} 
+
+
+/*ie6*/
+* html body .simpleMenuApricot1 td {
+	font-family: Franklin Gothic Book; font-size: 100%; font-weight: bold;
+} 
+/*end*/
